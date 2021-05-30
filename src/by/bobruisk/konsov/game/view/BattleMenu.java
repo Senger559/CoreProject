@@ -20,6 +20,7 @@ import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.players.and.monsters.MonsterData;
 import by.bobruisk.konsov.game.resourses.Buttons;
 import by.bobruisk.konsov.game.resourses.Labels;
+import by.bobruisk.konsov.game.resourses.SkillType;
 import by.bobruisk.konsov.game.skills.WarActiv1;
 import by.bobruisk.konsov.game.skills.WarActiv2;
 import by.bobruisk.konsov.game.skills.WarBasic;
@@ -107,7 +108,7 @@ public class BattleMenu extends JFrame{
 		this.monster = monster;
 	}
 	
-	class SkillListener implements ActionListener {
+	class SkillListener implements ActionListener {//монстра со всеми его модами и метами в отдельный файл?
 		private int playerActive1Modificator = 0;
 		private int playerActive2Modificator = 0;
 		private int playerUltimateModificator = 0;
@@ -115,56 +116,62 @@ public class BattleMenu extends JFrame{
 		private int monsterActive1Modificator = 0;
 		private int monsterActive2Modificator = 0;
 		private int monsterUltimateModificator = 0;
+		
+		public boolean isAliveMonster(Player monster) {
+			if (monster.getHealthPoints() != 0) {
+				//ход монстра
+				monsterSkillAction (monster);
+			} else {
+				// победа, добавление очка победы и опыта за врага
+			}
+			if (player.getHealthPoints() <= 0) {
+				// game over добавление очка поражений, опыт не засчитывается
+			}
+			return false;
+		}
+		public void makeMove (Player monster, Player player, SkillType skillType) {
+			battleLog.setText(BattleManager.performBasicAttack(monster, player, skillType));
+			monsterHealth.setText("   Здоровье: " + monster.getHealthPoints());
+		}
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			if ("basic".equals(e.getActionCommand())) {
-				battleLog.setText(BattleManager.getBasicAttack(monster, player));
-				monsterHealth.setText("   Здоровье: " + monster.getHealthPoints());
-				if (monster.getHealthPoints() != 0) {
-					//ход монстра
-					monsterSkillAction (monster);
-				} else {
-					// победа, добавление очка победы и опыта за врага
-				}
-				if (player.getHealthPoints() <= 0) {
-					// game over добавление очка поражений, опыт не засчитывается
-				}
+				makeMove(monster, player, SkillType.BASIC);
+				isAliveMonster(monster);				
 			} else if ("active1".equals(e.getActionCommand())) {
-				monster.setHealthPoints(monster.getHealthPoints() + monster.getDefense()- player.getBasic().skillAction(player));
-				if (monster.getHealthPoints() != 0) {
-					//ход монстра
-					monsterSkillAction (monster);
-				} else {
-					// победа, добавление очка победы и опыта за врага
-				}
-				if (player.getHealthPoints() <= 0) {
-					// game over добавление очка поражений, опыт не засчитывается
-				}
+				makeMove(monster, player, SkillType.ACTIVE1);
+				playerActive1Modificator = 2;
+				isAliveMonster(monster);	
 			} else if ("active2".equals(e.getActionCommand())) {
-				monster.setHealthPoints(monster.getHealthPoints() + monster.getDefense()- player.getBasic().skillAction(player));
-				if (monster.getHealthPoints() != 0) {
-					//ход монстра
-					monsterSkillAction (monster);
-				} else {
-					// победа, добавление очка победы и опыта за врага
-				}
-				if (player.getHealthPoints() <= 0) {
-					// game over добавление очка поражений, опыт не засчитывается
-				}
+				makeMove(monster, player, SkillType.ACTIVE2);	
+				playerActive2Modificator = 3;
+				isAliveMonster(monster);	
 			} else if ("ultimate".equals(e.getActionCommand())) {
-				monster.setHealthPoints(monster.getHealthPoints() + monster.getDefense()- player.getBasic().skillAction(player));
-				if (monster.getHealthPoints() != 0) {
-					//ход монстра
-					monsterSkillAction (monster);
-				} else {
-					// победа, добавление очка победы и опыта за врага
-				}
-				if (player.getHealthPoints() <= 0) {
-					// game over добавление очка поражений, опыт не засчитывается
-				}
+				makeMove(monster, player, SkillType.ULTIMATE);
+				playerUltimateModificator = 4;
+				isAliveMonster(monster);
+			}
+			if (playerActive1Modificator != 0) {
+				playerActive1Modificator--;
+				active1Skill.setEnabled(false);
+			} else {
+				active1Skill.setEnabled(true);
+			}
+			if (playerActive2Modificator != 0) {
+				playerActive2Modificator--;
+				active2Skill.setEnabled(false);
+			} else {
+				active2Skill.setEnabled(true);
+			}
+			if (playerUltimateModificator != 0) {
+				playerUltimateModificator--;
+				ultimateSkill.setEnabled(false);
+			} else {
+				ultimateSkill.setEnabled(true);
 			}
 		}
+	
 		// ход монстра.что делает монстр в свой раунд
 		public void monsterSkillAction (Player monster) {
 			Random r = new Random ();
@@ -190,19 +197,21 @@ public class BattleMenu extends JFrame{
 					}
 				break;
 			}
-			//переопределяет кд навыков
+			
+			//переопределяет кд навыков монстра
 			if (monsterActive1Modificator != 0) {
 				monsterActive1Modificator--;
-				//передача значений в панель
-			}
+				
+			} 
 			if (monsterActive2Modificator != 0) {
 				monsterActive2Modificator--;
-				//передача значений в панель
-			}
+				
+			} 
 			if (monsterUltimateModificator != 0) {
 				monsterUltimateModificator--;
-				//передача значений в панель
-			}
+				
+			} 
+			
 			
 			switch (skill) {// потом добавить механики остальных типов
 				case 0: 
