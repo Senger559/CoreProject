@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import by.bobruisk.konsov.game.model.Player;
+import by.bobruisk.konsov.game.resourses.PlayerClass;
 import by.bobruisk.konsov.game.skills.WarActiv1;
 import by.bobruisk.konsov.game.skills.WarActiv2;
 import by.bobruisk.konsov.game.skills.WarBasic;
@@ -18,12 +19,14 @@ public class MonsterData {
 		first.setIi("Warroir05.jpg");
 		first.setLevel(1);
 		first.setExpirience(0);
-		first.setDexterity(10);
+		first.setDexterity(15);
 		first.setHealthPoints(100);
 		first.setIntelligence(10);
-		first.setPower(10);
+		first.setPower(35);
 		first.setBattleWin(10);
 		first.setBattleLose(10);
+		first.setDefense(20);
+		first.setPlayerClass(PlayerClass.WARRIOR);
 		first.setBasic(new WarBasic());
 		first.setActive1(new WarActiv1());
 		first.setActive2(new WarActiv2());

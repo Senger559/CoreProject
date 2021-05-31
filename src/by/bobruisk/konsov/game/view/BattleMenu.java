@@ -15,6 +15,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 import by.bobruisk.konsov.game.controllers.BattleManager;
+import by.bobruisk.konsov.game.controllers.MonsterLogic;
 import by.bobruisk.konsov.game.main.GameRunner;
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.players.and.monsters.MonsterData;
@@ -57,7 +58,7 @@ public class BattleMenu extends JFrame{
 		playerDexterity = Labels.createCharacterLabel("   Ћовкость: " + player.getDexterity(), 50, 580, 250, 20);
 		playerIntelligense = Labels.createCharacterLabel("   »нтеллект: " + player.getIntelligence(), 50, 620, 250, 20);
 		playerExpirience = Labels.createCharacterLabel("   “екущий опыт: " + player.getExpirience(), 50, 660, 250, 20);
-		battleLog.setText("Ѕой между " + player.getName() + " и " + monster.getName() + " началс€");
+		battleLog.setText("Ѕой между " + player.getName() + " и " + monster.getName() + " началс€ \n");
 		
 		//battleLog сделать нередактируемым
 		batScroll = new JScrollPane(battleLog);
@@ -113,44 +114,42 @@ public class BattleMenu extends JFrame{
 		private int playerActive2Modificator = 0;
 		private int playerUltimateModificator = 0;
 		
-		private int monsterActive1Modificator = 0;
-		private int monsterActive2Modificator = 0;
-		private int monsterUltimateModificator = 0;
-		
-		public boolean isAliveMonster(Player monster) {
-			if (monster.getHealthPoints() != 0) {
-				//ход монстра
-				monsterSkillAction (monster);
+		public boolean isAliveMonster() {
+			if (monster.getHealthPoints() > 0) {
+				MonsterLogic.monsterSkillAction (player, monster, battleLog.getText());
+				battleLog.setText("");
+				battleLog.setText(MonsterLogic.getLog().toString());
+				playerHealth.setText("   «доровье: " + player.getHealthPoints());
 			} else {
 				// победа, добавление очка победы и опыта за врага
 			}
-			if (player.getHealthPoints() <= 0) {
+			if (player.getHealthPoints() == 0) {
 				// game over добавление очка поражений, опыт не засчитываетс€
 			}
 			return false;
 		}
-		public void makeMove (Player monster, Player player, SkillType skillType) {
-			battleLog.setText(BattleManager.performBasicAttack(monster, player, skillType));
+		public void makeMove (Player monster, Player player,String Log, SkillType skillType) {
+			battleLog.setText(BattleManager.performBasicAttack(monster, player,Log, skillType));
 			monsterHealth.setText("   «доровье: " + monster.getHealthPoints());
 		}
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			if ("basic".equals(e.getActionCommand())) {
-				makeMove(monster, player, SkillType.BASIC);
-				isAliveMonster(monster);				
+				makeMove(monster, player, battleLog.getText(), SkillType.BASIC);
+				isAliveMonster();				
 			} else if ("active1".equals(e.getActionCommand())) {
-				makeMove(monster, player, SkillType.ACTIVE1);
+				makeMove(monster, player, battleLog.getText(), SkillType.ACTIVE1);
 				playerActive1Modificator = 2;
-				isAliveMonster(monster);	
+				isAliveMonster();	
 			} else if ("active2".equals(e.getActionCommand())) {
-				makeMove(monster, player, SkillType.ACTIVE2);	
+				makeMove(monster, player, battleLog.getText(), SkillType.ACTIVE2);	
 				playerActive2Modificator = 3;
-				isAliveMonster(monster);	
+				isAliveMonster();	
 			} else if ("ultimate".equals(e.getActionCommand())) {
-				makeMove(monster, player, SkillType.ULTIMATE);
+				makeMove(monster, player, battleLog.getText(), SkillType.ULTIMATE);
 				playerUltimateModificator = 4;
-				isAliveMonster(monster);
+				isAliveMonster();
 			}
 			if (playerActive1Modificator != 0) {
 				playerActive1Modificator--;
@@ -171,59 +170,7 @@ public class BattleMenu extends JFrame{
 				ultimateSkill.setEnabled(true);
 			}
 		}
-	
-		// ход монстра.что делает монстр в свой раунд
-		public void monsterSkillAction (Player monster) {
-			Random r = new Random ();
-			int skill = r.nextInt(4);
-			while (true) {// выбирает, какой скилл использовать
-				if (skill != 0) {
-					if (skill == 1) {
-						if (monsterActive1Modificator != 0) {
-							skill++;
-							break;
-						}
-					} else if (skill == 2) {
-							if (monsterActive1Modificator != 0) {
-								skill++;
-								break;
-							}
-					} else if (skill == 3) {
-							if (monsterActive1Modificator != 0) {
-								skill = 0;
-								break;
-							}					
-						}
-					}
-				break;
-			}
-			
-			//переопредел€ет кд навыков монстра
-			if (monsterActive1Modificator != 0) {
-				monsterActive1Modificator--;
-				
-			} 
-			if (monsterActive2Modificator != 0) {
-				monsterActive2Modificator--;
-				
-			} 
-			if (monsterUltimateModificator != 0) {
-				monsterUltimateModificator--;
-				
-			} 
-			
-			
-			switch (skill) {// потом добавить механики остальных типов
-				case 0: 
-					player.setHealthPoints(player.getHealthPoints() + player.getDefense() - monster.getBasic().skillAction(monster));
-				case 1:
-					player.setHealthPoints(player.getHealthPoints() + player.getDefense() - monster.getBasic().skillAction(monster));
-				case 2:
-					player.setHealthPoints(player.getHealthPoints() + player.getDefense() - monster.getBasic().skillAction(monster));
-				case 3:
-					player.setHealthPoints(player.getHealthPoints() + player.getDefense() - monster.getBasic().skillAction(monster));
-			}			
-		}
+
 		public Player getPlayer() {
 			return player;
 		}

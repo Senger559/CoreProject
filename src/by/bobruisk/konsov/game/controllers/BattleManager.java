@@ -7,10 +7,11 @@ public class BattleManager {
 	
 	private static StringBuilder log = new StringBuilder();
 	
-	public static String performBasicAttack (Player defender, Player attacker, SkillType skillType) {
+	public static String performBasicAttack (Player defender, Player attacker,String battleLog, SkillType skillType) {
+		log.delete(0, log.length());
+		log.append(battleLog);
 		int skillDamage = selectSkill(attacker, skillType);
 		int damage = determinateDamage(defender, attacker, skillDamage);
-		int lastHealth = controlLastHealth(defender, damage);
 		createAttackLog (defender, attacker,attacker.getBasic().getName(), damage);
 		return log.toString();
 	}
