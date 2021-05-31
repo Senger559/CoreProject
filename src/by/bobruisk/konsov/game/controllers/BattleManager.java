@@ -11,12 +11,12 @@ public class BattleManager {
 		log.delete(0, log.length());
 		log.append(battleLog);
 		int skillDamage = selectSkill(attacker, skillType);
-		int damage = determinateDamage(defender, attacker, skillDamage);
-		createAttackLog (defender, attacker,attacker.getBasic().getName(), damage);
+		int damage = determinateDamage(defender, attacker, skillDamage);		
+		createAttackLog (defender, attacker,skillType, damage);
 		return log.toString();
 	}
-	public static int determinateDamage(Player defender, Player attacker, int skillPower) {
-		int damage = attacker.getBasic().skillAction(attacker) - defender.getDefense();
+	public static int determinateDamage(Player defender, Player attacker, int skillDamage) {
+		int damage = (skillDamage - defender.getDefense()) < 0 ? 0 : skillDamage - defender.getDefense();
 		int lastHealth = controlLastHealth(defender, damage);
 		defender.setHealthPoints(lastHealth);
 		return damage;
@@ -29,10 +29,29 @@ public class BattleManager {
 		}
 		return lastHealth;
 	}
-	public static void createAttackLog (Player defender, Player attacker, String skillName, int damage) {
-		String skillMessage = attacker.getName() + " использовал " + skillName + "\n";
+	public static void createAttackLog (Player defender, Player attacker, SkillType skillType, int damage) {
+		String skillMessage = attacker.getName() + " использовал " + getSkillName(attacker, skillType) + "\n";
 		String damageMessage = defender.getName() + " получил " + damage  + " урона\n\n";
 		log.append(skillMessage).append(damageMessage);
+	}
+	
+	public static String getSkillName (Player attacker, SkillType skillType) {
+		String skillName = null;
+		switch(skillType) {
+		case BASIC:
+			skillName = attacker.getBasic().getName();
+			break;
+		case ACTIVE1:
+			skillName = attacker.getActive1().getName();
+			break;
+		case ACTIVE2:
+			skillName = attacker.getActive2().getName();
+			break;
+		case ULTIMATE:
+			skillName = attacker.getUltimate().getName();
+			break;
+		}
+		return skillName;
 	}
 	public static int selectSkill(Player attacker, SkillType skillType) {
 		int skillDamage = 0;

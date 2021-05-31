@@ -14,6 +14,7 @@ public class MonsterLogic {
 	public static void selectSkill(Player player, Player monster) {
 		Random r = new Random ();
 		int skill = r.nextInt(4);
+		System.out.println(skill);
 		while (true) {// выбирает, какой скилл использовать
 			if (skill != 0) {
 				if (skill == 1) {
