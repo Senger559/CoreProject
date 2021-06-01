@@ -8,6 +8,7 @@ import java.util.Random;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -15,6 +16,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 import by.bobruisk.konsov.game.controllers.BattleManager;
+import by.bobruisk.konsov.game.controllers.ExperienseManager;
 import by.bobruisk.konsov.game.controllers.MonsterLogic;
 import by.bobruisk.konsov.game.main.GameRunner;
 import by.bobruisk.konsov.game.model.Player;
@@ -27,6 +29,7 @@ import by.bobruisk.konsov.game.skills.WarActiv2;
 import by.bobruisk.konsov.game.skills.WarBasic;
 import by.bobruisk.konsov.game.skills.WarUltimate;
 import by.bobruisk.konsov.game.view.helper.ComponentHelper;
+import by.bobruisk.konsov.game.view.helper.FrameSelector;
 
 public class BattleMenu extends JFrame{
 	private Player monster = MonsterData.getFirst();
@@ -109,29 +112,10 @@ public class BattleMenu extends JFrame{
 		this.monster = monster;
 	}
 	
-	class SkillListener implements ActionListener {//монстра со всеми его модами и метами в отдельный файл?
+	class SkillListener implements ActionListener {
 		private int playerActive1Modificator = 0;
 		private int playerActive2Modificator = 0;
 		private int playerUltimateModificator = 0;
-		
-		public boolean isAliveMonster() {
-			if (monster.getHealthPoints() > 0) {
-				MonsterLogic.monsterSkillAction (player, monster, battleLog.getText());
-				battleLog.setText("");
-				battleLog.setText(MonsterLogic.getLog().toString());
-				playerHealth.setText("   Здоровье: " + player.getHealthPoints());
-			} else {
-				// победа, добавление очка победы и опыта за врага
-			}
-			if (player.getHealthPoints() == 0) {
-				// game over добавление очка поражений, опыт не засчитывается
-			}
-			return false;
-		}
-		public void makeMove (Player monster, Player player,String Log, SkillType skillType) {
-			battleLog.setText(BattleManager.performBasicAttack(monster, player,Log, skillType));
-			monsterHealth.setText("   Здоровье: " + monster.getHealthPoints());
-		}
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -151,24 +135,62 @@ public class BattleMenu extends JFrame{
 				playerUltimateModificator = 4;
 				isAliveMonster();
 			}
-			if (playerActive1Modificator != 0) {
-				playerActive1Modificator--;
-				active1Skill.setEnabled(false);
+			decerseAllSkillCooldown();
+		}
+		
+		private void decerseAllSkillCooldown() {
+			decreaseSkillCoolDown(playerActive1Modificator, active1Skill);
+			decreaseSkillCoolDown(playerActive2Modificator, active2Skill);
+			decreaseSkillCoolDown(playerUltimateModificator, ultimateSkill);
+		}
+		
+		private void decreaseSkillCoolDown(int modifier, JButton skillButton) {
+			if(modifier!= 0) {
+				modifier--;
+				skillButton.setEnabled(false);
 			} else {
-				active1Skill.setEnabled(true);
+				skillButton.setEnabled(true);
 			}
-			if (playerActive2Modificator != 0) {
-				playerActive2Modificator--;
-				active2Skill.setEnabled(false);
+		}
+		
+		private boolean isAliveMonster() {
+			if (monster.getHealthPoints() > 0) {
+				getMonsterTurn();
 			} else {
-				active2Skill.setEnabled(true);
+				getWin();
 			}
-			if (playerUltimateModificator != 0) {
-				playerUltimateModificator--;
-				ultimateSkill.setEnabled(false);
-			} else {
-				ultimateSkill.setEnabled(true);
+			if (player.getHealthPoints() == 0) {
+				getLose();
 			}
+			return false;
+		}
+		
+		private void getMonsterTurn() {
+			MonsterLogic.monsterSkillAction (player, monster, battleLog.getText());
+			battleLog.setText("");
+			battleLog.setText(MonsterLogic.getLog().toString());
+			playerHealth.setText("   Здоровье: " + player.getHealthPoints());
+		}
+		
+		private void getWin() {
+			player.setBattleWin(player.getBattleWin()+1);
+			ExperienseManager.addExperienceWin(player, monster.getLevel(), true);
+			new BattleResultDialog(player, true);
+			FrameSelector.getCharacterMenu(player);
+		}
+		
+		private void getLose() {
+			player.setBattleLose(player.getBattleLose()+1);
+			ExperienseManager.addExperienceWin(player, monster.getLevel(), false);
+			new BattleResultDialog(player, false);
+			FrameSelector.getCharacterMenu(player);
+		}
+		
+		
+		
+		private void makeMove (Player monster, Player player,String Log, SkillType skillType) {
+			battleLog.setText(BattleManager.performBasicAttack(monster, player,Log, skillType));
+			monsterHealth.setText("   Здоровье: " + monster.getHealthPoints());
 		}
 
 		public Player getPlayer() {

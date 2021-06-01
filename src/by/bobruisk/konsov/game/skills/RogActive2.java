@@ -1,21 +1,22 @@
 package by.bobruisk.konsov.game.skills;
 
+import java.util.Random;
+
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.SkillType;
 
-public class WarActiv2 extends Skill{
-	
+public class RogActive2 extends Skill{
 	{
 		skillType= SkillType.ACTIVE2;
-		name = "Усиление";
-		description = "Увеличивает силу атаки персонажа";
+		name = "Бросок удачи";
+		description = "Наносит случайный урон пропорционально ловкости";
 		cooldown = 3;
 	}
-
 	@Override
 	public int skillAction(Player player) {
-		player.setPower((int)(player.getPower() * 1.1));
-	return (int)(player.getPower() * 0.5);
+		Random r = new Random();
+		return (int)(player.getDexterity() * r.nextInt(4));
+
 	}
 
 }

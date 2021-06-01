@@ -3,19 +3,18 @@ package by.bobruisk.konsov.game.skills;
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.SkillType;
 
-public class WarActiv2 extends Skill{
-	
+public class MagActive2 extends Skill{
 	{
 		skillType= SkillType.ACTIVE2;
-		name = "Усиление";
-		description = "Увеличивает силу атаки персонажа";
+		name = "Закалка";
+		description = "Незначительно увеличивает защиту до конца боя, наносит умеренный урон";
 		cooldown = 3;
 	}
 
 	@Override
 	public int skillAction(Player player) {
-		player.setPower((int)(player.getPower() * 1.1));
-	return (int)(player.getPower() * 0.5);
+		player.setDefense((int)(player.getDefense()*1.5));
+		return (int)(player.getIntelligence() * 0.7);
 	}
 
 }

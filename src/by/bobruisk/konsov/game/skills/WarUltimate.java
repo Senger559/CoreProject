@@ -17,5 +17,4 @@ public class WarUltimate extends Skill{
 		int damage = (int)(player.getPower() * 4.5);
 		return damage;
 	}
-
 }

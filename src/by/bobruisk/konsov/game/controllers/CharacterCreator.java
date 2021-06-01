@@ -1,12 +1,19 @@
 package by.bobruisk.konsov.game.controllers;
 
-import javax.swing.ImageIcon;
 
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.players.and.monsters.PlayerData;
 import by.bobruisk.konsov.game.resourses.ClassDescription;
 import by.bobruisk.konsov.game.resourses.PicturesData;
 import by.bobruisk.konsov.game.resourses.PlayerClass;
+import by.bobruisk.konsov.game.skills.MagActive1;
+import by.bobruisk.konsov.game.skills.MagActive2;
+import by.bobruisk.konsov.game.skills.MagBasic;
+import by.bobruisk.konsov.game.skills.MagUltimate;
+import by.bobruisk.konsov.game.skills.RogActive1;
+import by.bobruisk.konsov.game.skills.RogActive2;
+import by.bobruisk.konsov.game.skills.RogBasic;
+import by.bobruisk.konsov.game.skills.RogUltimate;
 import by.bobruisk.konsov.game.skills.WarActiv1;
 import by.bobruisk.konsov.game.skills.WarActiv2;
 import by.bobruisk.konsov.game.skills.WarBasic;
@@ -39,9 +46,9 @@ public class CharacterCreator {
 		if (player.getPlayerClass() == PlayerClass.WARRIOR) {
 			setWarriorSkills(player);
 		} else if (player.getPlayerClass() == PlayerClass.ROGUE) {
-			setWarriorSkills(player);//!!!!!!!!!!!!!!!!!!
+			setRogueSkills(player);
 		} else if (player.getPlayerClass() == PlayerClass.MAGE) {
-			setWarriorSkills(player);//!!!!!!!!!!!!!!!!!!
+			setMageSkills(player);
 		}
 	}
 	public static void setWarriorSkills(Player player) {
@@ -49,5 +56,17 @@ public class CharacterCreator {
 		player.setActive1(new WarActiv1());
 		player.setActive2(new WarActiv2());
 		player.setUltimate(new WarUltimate());
+	}
+	public static void setRogueSkills(Player player) {
+		player.setBasic(new RogBasic());
+		player.setActive1(new RogActive1());
+		player.setActive2(new RogActive2());
+		player.setUltimate(new RogUltimate());
+	}
+	public static void setMageSkills(Player player) {
+		player.setBasic(new MagBasic());
+		player.setActive1(new MagActive1());
+		player.setActive2(new MagActive2());
+		player.setUltimate(new MagUltimate());
 	}
 }
