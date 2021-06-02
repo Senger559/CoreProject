@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-
+import by.bobruisk.konsov.game.controllers.Verification;
 import by.bobruisk.konsov.game.main.GameRunner;
 import by.bobruisk.konsov.game.resourses.Labels;
 import by.bobruisk.konsov.game.resourses.TextFields;
@@ -31,7 +31,6 @@ public class RegistrationMenu extends JFrame{
 	private JTextField createPassword = TextFields.createTextFForLogMenu(Color.white, 355, 526, 200, 30);
 	
 	public RegistrationMenu () {
-//		setFrame(FrameCreator.getFrame());
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(900, 740);
 		setLocationRelativeTo(null);
@@ -40,7 +39,7 @@ public class RegistrationMenu extends JFrame{
 		checkResult.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
 				JOptionPane.showMessageDialog(GameRunner.getFrame(), "Тык работает!");
-//				checkName();
+				Verification.checkName(createLogin.getText(),check);//////////
 			}
 		});
 		finishRegistration.addMouseListener(new MouseAdapter() {
@@ -48,10 +47,11 @@ public class RegistrationMenu extends JFrame{
 				JOptionPane.showMessageDialog(GameRunner.getFrame(), "Тык работает!");
 				FrameSelector.getCreateCharacterMenu();
 				
-//				Verification.registrationCheck(createLogin.getText(), createPassword.getText());
+//				Verification.registrationCheck(createLogin.getText(), createPassword.getText());/////////////
 			}
 		});
 		setVisible(true);
+		
 		
 //	public JFrame getFrame() {
 //		return frame;

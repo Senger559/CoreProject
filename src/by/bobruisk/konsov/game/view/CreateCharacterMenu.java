@@ -27,7 +27,6 @@ import by.bobruisk.konsov.game.view.helper.FrameSelector;
 
 
 public class CreateCharacterMenu extends JFrame{
-//	private ActionListener selectAvatarJB = new SelectAvatarListener();
 	private ActionListener SelectClassJB = new ButListener();
 	private JTextField enteringName = new JTextField("¬ведите им€");
 	private JTextArea characterDescription = TextAreas.createUneditable(567, 0, 300, 900);

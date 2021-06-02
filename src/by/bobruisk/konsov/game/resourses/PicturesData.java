@@ -4,6 +4,8 @@ public class PicturesData {
 	
 	private static String [] url = new String[14];
 	private static int selectedPicture = 0;
+	private static String[] monsterUrl = new String [11];
+//	private static int selectedMonster = 0;
 	static {
 		url[0] = "Mage00.jpg";
 		url[1] = "Mage01.jpg";
@@ -19,6 +21,18 @@ public class PicturesData {
 		url[11] = "Warroir05.jpg";
 		url[12] = "Warroir06.jpg";
 		url[13] = "Warroir07.jpg";
+		monsterUrl[0] = "monsters/Chuul.png";
+		monsterUrl[1] = "monsters/Cobold.jpg";
+		monsterUrl[2] = "monsters/DemonBaatezu.png";
+		monsterUrl[3] = "monsters/Dopelganger.jpg";
+		monsterUrl[4] = "monsters/Hitn.jpg";
+		monsterUrl[5] = "monsters/Ischadie.jpg";
+		monsterUrl[6] = "monsters/Kaban.jpg";
+		monsterUrl[7] = "monsters/Karga.jpg";
+		monsterUrl[8] = "monsters/KostyanoyDiavol.jpg";
+		monsterUrl[9] = "monsters/Kvaggot.png";
+		monsterUrl[10] = "monsters/LyutiiTroll.png";
+		
 	
 	}
 
@@ -37,6 +51,12 @@ public class PicturesData {
 	}
 	public static void setSelectedPicture(int selectedPicture) {
 		PicturesData.selectedPicture = selectedPicture;
+	}
+	public static String[] getMonsterUrl() {
+		return monsterUrl;
+	}
+	public static void setMonsterUrl(String[] monsterUrl) {
+		PicturesData.monsterUrl = monsterUrl;
 	}
 
 }

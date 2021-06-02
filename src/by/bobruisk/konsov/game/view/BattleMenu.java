@@ -3,36 +3,29 @@ package by.bobruisk.konsov.game.view;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Random;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
-import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 import by.bobruisk.konsov.game.controllers.BattleManager;
 import by.bobruisk.konsov.game.controllers.ExperienseManager;
 import by.bobruisk.konsov.game.controllers.MonsterLogic;
-import by.bobruisk.konsov.game.main.GameRunner;
+import by.bobruisk.konsov.game.controllers.OpponentCreator;
+import by.bobruisk.konsov.game.controllers.PlayerLevelManager;
 import by.bobruisk.konsov.game.model.Player;
-import by.bobruisk.konsov.game.players.and.monsters.MonsterData;
 import by.bobruisk.konsov.game.resourses.Buttons;
 import by.bobruisk.konsov.game.resourses.Labels;
 import by.bobruisk.konsov.game.resourses.SkillType;
-import by.bobruisk.konsov.game.skills.WarActiv1;
-import by.bobruisk.konsov.game.skills.WarActiv2;
-import by.bobruisk.konsov.game.skills.WarBasic;
-import by.bobruisk.konsov.game.skills.WarUltimate;
 import by.bobruisk.konsov.game.view.helper.ComponentHelper;
 import by.bobruisk.konsov.game.view.helper.FrameSelector;
 
 public class BattleMenu extends JFrame{
-	private Player monster = MonsterData.getFirst();
+	private Player monster = new Player();
 	private Player player = new Player();
 	private JLabel playerName,playerAvatar, playerLevel, playerClass, playerHealth, playerDefence, playerPower, playerDexterity, playerIntelligense, playerExpirience;
 	private JLabel monsterName,monsterLevel,monsterAvatar, monsterClass, monsterHealth;
@@ -41,7 +34,7 @@ public class BattleMenu extends JFrame{
 	private JScrollPane batScroll;
 	private JButton basicSkill, active1Skill,active2Skill, ultimateSkill, close, mainMenu;
 	private ActionListener butListener = new SkillListener();
-	
+	private OpponentCreator getEnemy= new OpponentCreator();
 	public BattleMenu(Player player){
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(900, 740);
@@ -49,6 +42,8 @@ public class BattleMenu extends JFrame{
 		setLocationRelativeTo(null);
 		getContentPane().setLayout(null);
 		this.player = player;
+		monster.setLevel(player.getLevel());
+		monster = getEnemy.getNewMonster(player.getLevel());
 		playerName = Labels.createCharacterLabel("   "+ player.getName(), 0, 0, 250, 20);
 		playerAvatar  = new JLabel(
 				new ImageIcon(LoginMenu.class.getClassLoader().getResource(player.getIi()))); 
@@ -63,11 +58,9 @@ public class BattleMenu extends JFrame{
 		playerExpirience = Labels.createCharacterLabel("   Текущий опыт: " + player.getExpirience(), 50, 660, 250, 20);
 		battleLog.setText("Бой между " + player.getName() + " и " + monster.getName() + " начался \n");
 		
-		//battleLog сделать нередактируемым
 		batScroll = new JScrollPane(battleLog);
 		batScroll.setBounds(250, 0, 400, 600);
 		batScroll.setBorder(BorderFactory.createEmptyBorder());
-		batScroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_NEVER);
 		batScroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		
 		monsterName = Labels.createCharacterLabel(monster.getName(), 650, 0, 250, 20); 
@@ -139,18 +132,20 @@ public class BattleMenu extends JFrame{
 		}
 		
 		private void decerseAllSkillCooldown() {
-			decreaseSkillCoolDown(playerActive1Modificator, active1Skill);
-			decreaseSkillCoolDown(playerActive2Modificator, active2Skill);
-			decreaseSkillCoolDown(playerUltimateModificator, ultimateSkill);
+			playerActive1Modificator = decreaseSkillCoolDown(playerActive1Modificator, active1Skill);
+			playerActive2Modificator = decreaseSkillCoolDown(playerActive2Modificator, active2Skill);
+			playerUltimateModificator = decreaseSkillCoolDown(playerUltimateModificator, ultimateSkill);
 		}
-		
-		private void decreaseSkillCoolDown(int modifier, JButton skillButton) {
+		//первоначально этот метод не возвращал, просто уменьшал поступаемую переменную и всё работало.
+		//так и не понял, с чего он внезапно перестал это делать(код не переписывал, слушатель не менял), пришлось дополнительно присваивать
+		private int decreaseSkillCoolDown(int modifier, JButton skillButton) {
 			if(modifier!= 0) {
-				modifier--;
+				--modifier;
 				skillButton.setEnabled(false);
 			} else {
 				skillButton.setEnabled(true);
 			}
+			return modifier;
 		}
 		
 		private boolean isAliveMonster() {
@@ -173,6 +168,7 @@ public class BattleMenu extends JFrame{
 		}
 		
 		private void getWin() {
+			PlayerLevelManager.lvlUp(player);
 			player.setBattleWin(player.getBattleWin()+1);
 			ExperienseManager.addExperienceWin(player, monster.getLevel(), true);
 			new BattleResultDialog(player, true);
@@ -180,6 +176,7 @@ public class BattleMenu extends JFrame{
 		}
 		
 		private void getLose() {
+			PlayerLevelManager.lvlUp(player);
 			player.setBattleLose(player.getBattleLose()+1);
 			ExperienseManager.addExperienceWin(player, monster.getLevel(), false);
 			new BattleResultDialog(player, false);

@@ -2,46 +2,41 @@ package by.bobruisk.konsov.game.controllers;
 
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.PlayerClass;
-//если не менять характеристики, то заменить всё методами игрока, и этот файл тогда не нужен
+
 public class MonsterLevelManager {
-	private static final int warriorHealthMod = 20;
-	private static final int warriorBasicHealth = 200;
-	private static final int warriorDEfMod = 10;
+	private static final int warriorHealthMod = 25;
+	private static final int warriorBasicHealth = 350;
+	private static final int warriorDEfMod = 5;
 	private static final int warriorBasicDef = 20;
 	private static final int warriorPowMod = 10;
-	private static final int warriorBasicPow = 35;
+	private static final int warriorBasicPow = 25;
 	private static final int warriorDexMod = 5;
-	private static final int warriorBasicDex = 15;
+	private static final int warriorBasicDex = 10;
 	private static final int warriorIntMod = 5;
 	private static final int warriorBasicInt = 5;
 	
-	private static final int rogueHealthMod = 15;
-	private static final int rogueBasicHealth = 170;
-	private static final int rogueDEfMod = 10;
-	private static final int rogueBasicDef = 10;
+	private static final int rogueHealthMod = 20;
+	private static final int rogueBasicHealth = 300;
+	private static final int rogueDEfMod = 5;
+	private static final int rogueBasicDef = 5;
 	private static final int roguePowMod = 5;
-	private static final int rogueBasicPow = 15;
+	private static final int rogueBasicPow = 10;
 	private static final int rogueDexMod = 10;
-	private static final int rogueBasicDex = 45;
+	private static final int rogueBasicDex = 15;
 	private static final int rogueIntMod = 5;
 	private static final int rogueBasicInt = 5;
 	
 	private static final int mageHealthMod = 10;
-	private static final int mageBasicHealth = 150;
+	private static final int mageBasicHealth = 250;
 	private static final int mageDEfMod = 5;
-	private static final int mageBasicDef = 5;
+	private static final int mageBasicDef = 15;
 	private static final int magePowMod = 5;
 	private static final int mageBasicPow = 5;
 	private static final int mageDexMod = 10;
 	private static final int mageBasicDex = 15;
-	private static final int mageIntMod = 10;
-	private static final int mageBasicInt = 55;
-	
-//	private static final int basicExpiriense = 10;
-//	private static final int upExpirienceBase = 10;
-//	private static final double upExpirienceMod = 1.5;
+	private static final int mageIntMod = 5;
+	private static final int mageBasicInt = 15;
 
-	
 	public static void lvlUp(Player monster) {
 		if (monster.getPlayerClass() == PlayerClass.WARRIOR) {
 			WarSetLvlStats(monster,monster.getLevel());

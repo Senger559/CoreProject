@@ -51,19 +51,19 @@ public class CharacterCreator {
 			setMageSkills(player);
 		}
 	}
-	public static void setWarriorSkills(Player player) {
+	private static void setWarriorSkills(Player player) {
 		player.setBasic(new WarBasic());
 		player.setActive1(new WarActiv1());
 		player.setActive2(new WarActiv2());
 		player.setUltimate(new WarUltimate());
 	}
-	public static void setRogueSkills(Player player) {
+	private static void setRogueSkills(Player player) {
 		player.setBasic(new RogBasic());
 		player.setActive1(new RogActive1());
 		player.setActive2(new RogActive2());
 		player.setUltimate(new RogUltimate());
 	}
-	public static void setMageSkills(Player player) {
+	private static void setMageSkills(Player player) {
 		player.setBasic(new MagBasic());
 		player.setActive1(new MagActive1());
 		player.setActive2(new MagActive2());
