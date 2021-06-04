@@ -1,14 +1,16 @@
 package by.bobruisk.konsov.game.resourses;
 
 import java.util.ArrayList;
+import java.util.List;
 
+import by.bobruisk.konsov.game.controllers.FileManager;
 import by.bobruisk.konsov.game.model.Account;
 import by.bobruisk.konsov.game.model.Player;
 
 public class Accounts {
 
 	private static ArrayList<Account> userList;
-
+	
 	static {
 		userList = new ArrayList<>();
 		Account ac1 = new Account();
@@ -29,6 +31,7 @@ public class Accounts {
 	}
 
 	public static ArrayList<Account> getUserList() {
+		
 		return userList;
 	}
 	// конструкция класс.поле= поле в статике по причине одного и того же имени

@@ -1,8 +1,10 @@
 package by.bobruisk.konsov.game.skills;
 
+import java.io.Serializable;
+
 import by.bobruisk.konsov.game.resourses.SkillType;
 
-public abstract class Skill implements SkillMechanic{
+public abstract class Skill implements SkillMechanic, Serializable{
 
 	protected String name;
 	protected String description;

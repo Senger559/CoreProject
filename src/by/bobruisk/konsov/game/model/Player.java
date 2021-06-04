@@ -1,11 +1,15 @@
 package by.bobruisk.konsov.game.model;
 
-import javax.swing.ImageIcon;
 
+import java.io.Serializable;
 import by.bobruisk.konsov.game.resourses.PlayerClass;
 import by.bobruisk.konsov.game.skills.Skill;
 
-public class Player {
+public class Player implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8701073242655401421L;
 	private String name;
 	private String classDescriptionL;
 	private PlayerClass playerClass;
@@ -128,6 +132,7 @@ public class Player {
 	public void setIi(String ii) {
 		this.ii = ii;
 	}
+
 
 	
 	

@@ -1,10 +1,9 @@
 package by.bobruisk.konsov.game.view;
 
 import java.awt.Color;
-import java.awt.event.ActionListener;
+
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -16,13 +15,15 @@ import by.bobruisk.konsov.game.main.GameRunner;
 import by.bobruisk.konsov.game.resourses.Labels;
 import by.bobruisk.konsov.game.resourses.TextFields;
 import by.bobruisk.konsov.game.view.helper.ComponentHelper;
-import by.bobruisk.konsov.game.view.helper.FrameCreator;
-import by.bobruisk.konsov.game.view.helper.FrameSelector;
 
 public class RegistrationMenu extends JFrame{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7579294283576596027L;
 	private JLabel login = Labels.createColorlessLabel("Логин:", Color.white,220, 450, 200, 80);
 	private JLabel password = Labels.createColorlessLabel("Пароль:", Color.white, 217, 500, 200, 80);
-	private JLabel check = Labels.createColorlessLabel("1", Color.white, 350, 420, 200, 80);
+	private JLabel check = Labels.createColorlessLabel("", Color.white, 350, 420, 200, 80);
 	private JLabel checkResult = Labels.createColorlessLabel("Проверить", Color.white, 560, 450, 200, 80);
 	private JLabel finishRegistration = Labels.createColorlessLabel("Готово", Color.white,375, 600, 100, 20);
 	private JLabel imageReg  = new JLabel(
@@ -44,20 +45,10 @@ public class RegistrationMenu extends JFrame{
 		});
 		finishRegistration.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
-				JOptionPane.showMessageDialog(GameRunner.getFrame(), "Тык работает!");
-				FrameSelector.getCreateCharacterMenu();
-				
-//				Verification.registrationCheck(createLogin.getText(), createPassword.getText());/////////////
+				JOptionPane.showMessageDialog(GameRunner.getFrame(), "Тык работает!");			
+				Verification.registrationCheck(createLogin.getText(), createPassword.getText());/////////////
 			}
 		});
 		setVisible(true);
-		
-		
-//	public JFrame getFrame() {
-//		return frame;
-//	}
-//	public void setFrame(JFrame frame) {
-//		this.frame = frame;
-//	}
 	}
 }
