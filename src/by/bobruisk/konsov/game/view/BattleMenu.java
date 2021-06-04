@@ -12,11 +12,14 @@ import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
+import org.apache.log4j.Logger;
+
 import by.bobruisk.konsov.game.controllers.BattleManager;
 import by.bobruisk.konsov.game.controllers.ExperienseManager;
 import by.bobruisk.konsov.game.controllers.MonsterLogic;
 import by.bobruisk.konsov.game.controllers.OpponentCreator;
 import by.bobruisk.konsov.game.controllers.PlayerLevelManager;
+import by.bobruisk.konsov.game.main.GameRunner;
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.Buttons;
 import by.bobruisk.konsov.game.resourses.Labels;
@@ -25,6 +28,8 @@ import by.bobruisk.konsov.game.view.helper.ComponentHelper;
 import by.bobruisk.konsov.game.view.helper.FrameSelector;
 
 public class BattleMenu extends JFrame{
+	private static final long serialVersionUID = -8171191544502193366L;
+	private final static Logger LOGGER = Logger.getLogger(BattleMenu.class);
 	private Player monster = new Player();
 	private Player player = new Player();
 	private JLabel playerName,playerAvatar, playerLevel, playerClass, playerHealth, playerDefence, playerPower, playerDexterity, playerIntelligense, playerExpirience;
@@ -86,14 +91,27 @@ public class BattleMenu extends JFrame{
 		ultimateSkill.addActionListener(butListener);
 		
 		mainMenu  = new JButton ("Main");
+		mainMenu.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				FrameSelector.getCharacterMenu(player);
+			}
+		});
 		mainMenu.setBounds(725, 630, 100, 21);
 		close = new JButton ("close");
 		close.setBounds(725, 660, 100, 21);
+		close.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				GameRunner.getFrame().dispose();
+			}
+		});
 		this.getContentPane().setBackground(Color.white);
 		ComponentHelper.addComponents(this.getContentPane(), playerName,playerAvatar, playerLevel, playerClass, playerHealth, playerDefence, 
 				playerPower, playerDexterity, playerIntelligense, playerExpirience,
 				monsterName,monsterLevel,monsterAvatar, monsterClass, monsterHealth,batScroll,
 				basicSkill, active1Skill,active2Skill, ultimateSkill, close, mainMenu);
+		LOGGER.info("menu was created");
 		setVisible(true);
 	}
 
@@ -113,17 +131,21 @@ public class BattleMenu extends JFrame{
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			if ("basic".equals(e.getActionCommand())) {
+				LOGGER.trace("basic attack used");
 				makeMove(monster, player, battleLog.getText(), SkillType.BASIC);
-				isAliveMonster();				
+				isAliveMonster();	
 			} else if ("active1".equals(e.getActionCommand())) {
+				LOGGER.trace("active1 attack used");
 				makeMove(monster, player, battleLog.getText(), SkillType.ACTIVE1);
 				playerActive1Modificator = 2;
 				isAliveMonster();	
 			} else if ("active2".equals(e.getActionCommand())) {
+				LOGGER.trace("active2 attack used");
 				makeMove(monster, player, battleLog.getText(), SkillType.ACTIVE2);	
 				playerActive2Modificator = 3;
 				isAliveMonster();	
 			} else if ("ultimate".equals(e.getActionCommand())) {
+				LOGGER.trace("ultimate attack used");
 				makeMove(monster, player, battleLog.getText(), SkillType.ULTIMATE);
 				playerUltimateModificator = 4;
 				isAliveMonster();

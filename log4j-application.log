@@ -1,0 +1,1059 @@
+2021-06-04 22:46:41 INFO  GameRunner:18 - The program is running
+2021-06-04 22:46:41 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 22:46:51 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 22:46:51 DEBUG RegistrationMenu:118 - checking your password
+2021-06-04 22:51:14 INFO  GameRunner:18 - The program is running
+2021-06-04 22:51:15 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 22:51:25 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 22:51:25 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 22:52:15 INFO  GameRunner:18 - The program is running
+2021-06-04 22:52:16 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 22:52:25 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 22:52:25 DEBUG RegistrationMenu:118 - checking your password
+2021-06-04 22:58:00 INFO  GameRunner:18 - The program is running
+2021-06-04 22:58:01 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 22:58:13 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 22:58:13 DEBUG RegistrationMenu:118 - checking your password
+2021-06-04 23:00:11 INFO  GameRunner:18 - The program is running
+2021-06-04 23:00:11 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:00:21 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:00:21 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:04:24 INFO  GameRunner:18 - The program is running
+2021-06-04 23:04:25 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:04:38 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:04:38 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:05:00 INFO  GameRunner:18 - The program is running
+2021-06-04 23:05:00 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:05:20 INFO  GameRunner:18 - The program is running
+2021-06-04 23:05:21 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:06:12 INFO  GameRunner:18 - The program is running
+2021-06-04 23:06:13 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:07:20 INFO  GameRunner:18 - The program is running
+2021-06-04 23:07:21 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:10:24 INFO  GameRunner:18 - The program is running
+2021-06-04 23:10:24 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:10:34 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:10:34 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:10:34 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:10:34 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:10:34 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:19:58 INFO  GameRunner:18 - The program is running
+2021-06-04 23:19:58 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:20:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:20:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:20:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:20:09 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:20:09 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:21:36 INFO  GameRunner:18 - The program is running
+2021-06-04 23:21:37 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:21:48 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:21:48 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:21:48 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:21:48 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:21:48 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:28:39 INFO  GameRunner:18 - The program is running
+2021-06-04 23:28:39 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:28:49 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:28:49 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:28:49 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:28:49 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:28:49 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:29:44 INFO  GameRunner:18 - The program is running
+2021-06-04 23:29:45 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:29:54 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:29:54 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:29:54 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:29:55 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:29:55 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:33:44 INFO  GameRunner:18 - The program is running
+2021-06-04 23:33:45 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:33:54 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:33:54 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:33:54 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:33:54 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:33:54 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:36:57 INFO  GameRunner:18 - The program is running
+2021-06-04 23:36:57 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:37:16 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:37:16 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:37:16 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:37:16 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:37:16 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:40:14 INFO  GameRunner:18 - The program is running
+2021-06-04 23:40:14 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:40:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:40:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:40:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:40:25 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:40:25 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:42:33 INFO  GameRunner:18 - The program is running
+2021-06-04 23:42:34 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:42:43 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:42:43 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:42:43 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:42:43 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:42:43 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:45:24 INFO  GameRunner:18 - The program is running
+2021-06-04 23:45:25 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:45:29 INFO  RegistrationMenu:52 - the menu was created
+2021-06-04 23:45:40 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:45:40 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:45:40 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:45:40 DEBUG RegistrationMenu:107 - nickname verification successful
+2021-06-04 23:45:44 DEBUG RegistrationMenu:107 - nickname verification successful
+2021-06-04 23:45:45 DEBUG RegistrationMenu:107 - nickname verification successful
+2021-06-04 23:46:08 DEBUG RegistrationMenu:57 - 3 
+2021-06-04 23:46:08 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:46:08 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:46:15 DEBUG RegistrationMenu:75 - ввод неверных данных
+2021-06-04 23:46:17 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:46:17 DEBUG RegistrationMenu:102 - nickname verification failed
+2021-06-04 23:46:18 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:46:18 DEBUG RegistrationMenu:102 - nickname verification failed
+2021-06-04 23:46:20 DEBUG RegistrationMenu:57 - 3 
+2021-06-04 23:46:20 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:46:20 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:46:22 DEBUG RegistrationMenu:75 - ввод неверных данных
+2021-06-04 23:46:25 DEBUG RegistrationMenu:57 - 3 
+2021-06-04 23:46:25 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:46:25 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:46:25 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:46:25 DEBUG RegistrationMenu:119 - checking your password
+2021-06-04 23:46:26 INFO  RegistrationMenu:66 - успешная регистрация нового игрока
+2021-06-04 23:46:26 INFO  MonsterLevelManager:88 - menu was created
+2021-06-04 23:46:30 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-04 23:46:30 INFO  MonsterLevelManager:88 - menu was created
+2021-06-04 23:46:31 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-04 23:46:31 INFO  MonsterLevelManager:88 - menu was created
+2021-06-04 23:46:32 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-04 23:46:32 INFO  MonsterLevelManager:88 - menu was created
+2021-06-04 23:46:33 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-04 23:46:33 INFO  MonsterLevelManager:88 - menu was created
+2021-06-04 23:46:33 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-04 23:46:33 INFO  MonsterLevelManager:88 - menu was created
+2021-06-04 23:46:34 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-04 23:46:34 INFO  MonsterLevelManager:88 - menu was created
+2021-06-04 23:46:36 INFO  ClassDescription:48 - the rogue character is assigned a class description
+2021-06-04 23:46:37 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:46:37 INFO  CharacterMenu:75 - menu was created
+2021-06-04 23:46:37 INFO  MonsterLevelManager:107 - character was created
+2021-06-04 23:46:38 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-04 23:46:38 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-04 23:46:38 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-04 23:46:38 INFO  RegistrationMenu:78 - the monster is assigned the rogue class
+2021-06-04 23:46:38 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-04 23:46:38 INFO  BattleMenu:114 - menu was created
+2021-06-04 23:46:40 INFO  BattleManager:18 - An attack has been madeгерой on the playerРьяный карга a skill ULTIMATE
+2021-06-04 23:46:40 INFO  BattleManager:18 - An attack has been madeРьяный карга on the playerгерой a skill ULTIMATE
+2021-06-04 23:46:41 INFO  BattleManager:18 - An attack has been madeгерой on the playerРьяный карга a skill ACTIVE2
+2021-06-04 23:46:41 INFO  BattleManager:18 - An attack has been madeРьяный карга on the playerгерой a skill ACTIVE2
+2021-06-04 23:46:43 INFO  BattleManager:18 - An attack has been madeгерой on the playerРьяный карга a skill ACTIVE1
+2021-06-04 23:46:43 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:46:43 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-04 23:46:43 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-04 23:46:45 INFO  CharacterMenu:75 - menu was created
+2021-06-04 23:46:49 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-04 23:46:49 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-04 23:46:49 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-04 23:46:49 INFO  RegistrationMenu:82 - the monster is assigned the mage class
+2021-06-04 23:46:49 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-04 23:46:49 INFO  BattleMenu:114 - menu was created
+2021-06-04 23:46:49 INFO  BattleManager:18 - An attack has been madeгерой on the playerБезымянный кабан a skill ACTIVE1
+2021-06-04 23:46:49 INFO  BattleManager:18 - An attack has been madeБезымянный кабан on the playerгерой a skill ACTIVE1
+2021-06-04 23:46:50 INFO  BattleManager:18 - An attack has been madeгерой on the playerБезымянный кабан a skill ACTIVE2
+2021-06-04 23:46:50 INFO  BattleManager:18 - An attack has been madeБезымянный кабан on the playerгерой a skill BASIC
+2021-06-04 23:46:50 INFO  BattleManager:18 - An attack has been madeгерой on the playerБезымянный кабан a skill ULTIMATE
+2021-06-04 23:46:50 INFO  BattleManager:18 - An attack has been madeБезымянный кабан on the playerгерой a skill BASIC
+2021-06-04 23:46:51 INFO  BattleManager:18 - An attack has been madeгерой on the playerБезымянный кабан a skill BASIC
+2021-06-04 23:46:51 INFO  BattleManager:18 - An attack has been madeБезымянный кабан on the playerгерой a skill BASIC
+2021-06-04 23:46:52 INFO  BattleManager:18 - An attack has been madeгерой on the playerБезымянный кабан a skill ACTIVE1
+2021-06-04 23:46:52 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:46:52 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-04 23:46:52 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-04 23:46:54 INFO  CharacterMenu:75 - menu was created
+2021-06-04 23:46:58 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-04 23:46:58 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-04 23:46:58 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-04 23:46:58 INFO  RegistrationMenu:82 - the monster is assigned the mage class
+2021-06-04 23:46:58 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-04 23:46:58 INFO  BattleMenu:114 - menu was created
+2021-06-04 23:46:59 INFO  BattleManager:18 - An attack has been madeгерой on the playerТеневой кобольд a skill ACTIVE2
+2021-06-04 23:46:59 INFO  BattleManager:18 - An attack has been madeТеневой кобольд on the playerгерой a skill BASIC
+2021-06-04 23:46:59 INFO  BattleManager:18 - An attack has been madeгерой on the playerТеневой кобольд a skill ULTIMATE
+2021-06-04 23:46:59 INFO  BattleManager:18 - An attack has been madeТеневой кобольд on the playerгерой a skill BASIC
+2021-06-04 23:47:00 INFO  BattleManager:18 - An attack has been madeгерой on the playerТеневой кобольд a skill ACTIVE1
+2021-06-04 23:47:00 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:00 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-04 23:47:00 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:00 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-04 23:47:01 INFO  CharacterMenu:75 - menu was created
+2021-06-04 23:47:02 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-04 23:47:02 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-04 23:47:02 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-04 23:47:02 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-04 23:47:02 INFO  MonsterLevelManager:48 - monster lelel up 2
+2021-06-04 23:47:02 INFO  BattleMenu:114 - menu was created
+2021-06-04 23:47:03 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный карга a skill BASIC
+2021-06-04 23:47:03 INFO  BattleManager:18 - An attack has been madeЗлобный карга on the playerгерой a skill BASIC
+2021-06-04 23:47:03 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный карга a skill ACTIVE2
+2021-06-04 23:47:03 INFO  BattleManager:18 - An attack has been madeЗлобный карга on the playerгерой a skill BASIC
+2021-06-04 23:47:04 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный карга a skill ULTIMATE
+2021-06-04 23:47:04 INFO  BattleManager:18 - An attack has been madeЗлобный карга on the playerгерой a skill BASIC
+2021-06-04 23:47:04 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный карга a skill ACTIVE1
+2021-06-04 23:47:04 INFO  BattleManager:18 - An attack has been madeЗлобный карга on the playerгерой a skill BASIC
+2021-06-04 23:47:07 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный карга a skill BASIC
+2021-06-04 23:47:07 INFO  BattleManager:18 - An attack has been madeЗлобный карга on the playerгерой a skill BASIC
+2021-06-04 23:47:12 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный карга a skill ACTIVE2
+2021-06-04 23:47:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:12 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-04 23:47:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:12 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-04 23:47:13 INFO  CharacterMenu:75 - menu was created
+2021-06-04 23:47:15 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-04 23:47:15 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-04 23:47:15 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-04 23:47:15 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-04 23:47:15 INFO  MonsterLevelManager:48 - monster lelel up 2
+2021-06-04 23:47:15 INFO  BattleMenu:114 - menu was created
+2021-06-04 23:47:16 INFO  BattleManager:18 - An attack has been madeгерой on the playerРьяный баатезу a skill ULTIMATE
+2021-06-04 23:47:16 INFO  BattleManager:18 - An attack has been madeРьяный баатезу on the playerгерой a skill BASIC
+2021-06-04 23:47:17 INFO  BattleManager:18 - An attack has been madeгерой on the playerРьяный баатезу a skill ACTIVE2
+2021-06-04 23:47:17 INFO  BattleManager:18 - An attack has been madeРьяный баатезу on the playerгерой a skill BASIC
+2021-06-04 23:47:18 INFO  BattleManager:18 - An attack has been madeгерой on the playerРьяный баатезу a skill ACTIVE1
+2021-06-04 23:47:18 INFO  BattleManager:18 - An attack has been madeРьяный баатезу on the playerгерой a skill BASIC
+2021-06-04 23:47:19 INFO  BattleManager:18 - An attack has been madeгерой on the playerРьяный баатезу a skill BASIC
+2021-06-04 23:47:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:19 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-04 23:47:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:19 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-04 23:47:22 INFO  CharacterMenu:75 - menu was created
+2021-06-04 23:47:25 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-04 23:47:25 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-04 23:47:25 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-04 23:47:25 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-04 23:47:25 INFO  MonsterLevelManager:48 - monster lelel up 2
+2021-06-04 23:47:25 INFO  BattleMenu:114 - menu was created
+2021-06-04 23:47:26 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный костяной Дьявол a skill ULTIMATE
+2021-06-04 23:47:26 INFO  BattleManager:18 - An attack has been madeОпасный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-04 23:47:26 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный костяной Дьявол a skill ACTIVE2
+2021-06-04 23:47:26 INFO  BattleManager:18 - An attack has been madeОпасный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-04 23:47:27 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный костяной Дьявол a skill ACTIVE1
+2021-06-04 23:47:27 INFO  BattleManager:18 - An attack has been madeОпасный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-04 23:47:27 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный костяной Дьявол a skill BASIC
+2021-06-04 23:47:27 INFO  BattleManager:18 - An attack has been madeОпасный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-04 23:47:28 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный костяной Дьявол a skill BASIC
+2021-06-04 23:47:28 INFO  BattleManager:18 - An attack has been madeОпасный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-04 23:47:29 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный костяной Дьявол a skill ULTIMATE
+2021-06-04 23:47:29 INFO  BattleManager:18 - An attack has been madeОпасный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-04 23:47:32 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный костяной Дьявол a skill ACTIVE2
+2021-06-04 23:47:32 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:32 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-04 23:47:32 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:32 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-04 23:47:34 INFO  CharacterMenu:75 - menu was created
+2021-06-04 23:47:35 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-04 23:47:35 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-04 23:47:35 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-04 23:47:35 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-04 23:47:35 INFO  MonsterLevelManager:48 - monster lelel up 2
+2021-06-04 23:47:35 INFO  BattleMenu:114 - menu was created
+2021-06-04 23:47:35 INFO  BattleManager:18 - An attack has been madeгерой on the playerТеневой исчадие a skill ACTIVE1
+2021-06-04 23:47:35 INFO  BattleManager:18 - An attack has been madeТеневой исчадие on the playerгерой a skill BASIC
+2021-06-04 23:47:36 INFO  BattleManager:18 - An attack has been madeгерой on the playerТеневой исчадие a skill ACTIVE2
+2021-06-04 23:47:36 INFO  BattleManager:18 - An attack has been madeТеневой исчадие on the playerгерой a skill BASIC
+2021-06-04 23:47:36 INFO  BattleManager:18 - An attack has been madeгерой on the playerТеневой исчадие a skill ULTIMATE
+2021-06-04 23:47:36 INFO  BattleManager:18 - An attack has been madeТеневой исчадие on the playerгерой a skill BASIC
+2021-06-04 23:47:37 INFO  BattleManager:18 - An attack has been madeгерой on the playerТеневой исчадие a skill BASIC
+2021-06-04 23:47:37 INFO  BattleManager:18 - An attack has been madeТеневой исчадие on the playerгерой a skill BASIC
+2021-06-04 23:47:38 INFO  BattleManager:18 - An attack has been madeгерой on the playerТеневой исчадие a skill ACTIVE1
+2021-06-04 23:47:38 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:38 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-04 23:47:38 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:38 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-04 23:47:39 INFO  CharacterMenu:75 - menu was created
+2021-06-04 23:47:40 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-04 23:47:40 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-04 23:47:40 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-04 23:47:40 INFO  RegistrationMenu:78 - the monster is assigned the rogue class
+2021-06-04 23:47:40 INFO  MonsterLevelManager:48 - monster lelel up 3
+2021-06-04 23:47:40 INFO  BattleMenu:114 - menu was created
+2021-06-04 23:47:41 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный костяной Дьявол a skill ULTIMATE
+2021-06-04 23:47:41 INFO  BattleManager:18 - An attack has been madeЗлобный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-04 23:47:41 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный костяной Дьявол a skill ACTIVE2
+2021-06-04 23:47:41 INFO  BattleManager:18 - An attack has been madeЗлобный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-04 23:47:42 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный костяной Дьявол a skill ACTIVE1
+2021-06-04 23:47:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:42 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-04 23:47:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-04 23:47:42 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-04 23:47:44 INFO  CharacterMenu:75 - menu was created
+2021-06-04 23:47:54 INFO  RegistrationMenu:62 - the menu was created
+2021-06-04 23:48:06 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:48:06 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:48:06 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-04 23:48:06 DEBUG RegistrationMenu:119 - checking your password
+2021-06-05 00:47:02 INFO  GameRunner:18 - The program is running
+2021-06-05 00:47:02 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 00:47:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:47:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:47:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:50:46 INFO  GameRunner:18 - The program is running
+2021-06-05 00:50:46 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 00:50:56 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:50:56 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:50:56 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:51:40 INFO  GameRunner:18 - The program is running
+2021-06-05 00:51:40 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 00:51:50 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:51:50 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:51:50 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:53:29 INFO  GameRunner:18 - The program is running
+2021-06-05 00:53:30 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 00:53:40 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:53:40 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:53:40 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:53:45 INFO  GameRunner:18 - The program is running
+2021-06-05 00:53:46 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 00:53:52 INFO  GameRunner:18 - The program is running
+2021-06-05 00:53:52 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 00:54:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:54:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:54:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:55:45 INFO  GameRunner:18 - The program is running
+2021-06-05 00:55:46 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 00:55:56 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:55:56 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:55:56 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:59:04 INFO  GameRunner:18 - The program is running
+2021-06-05 00:59:05 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 00:59:17 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:59:17 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 00:59:17 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:00:54 INFO  GameRunner:18 - The program is running
+2021-06-05 01:00:55 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:01:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:01:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:01:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:02:17 INFO  GameRunner:18 - The program is running
+2021-06-05 01:02:17 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:02:37 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:02:37 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:02:37 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:03:13 INFO  GameRunner:18 - The program is running
+2021-06-05 01:03:14 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:03:22 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:03:22 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:03:22 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:03:46 INFO  GameRunner:18 - The program is running
+2021-06-05 01:03:47 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:03:58 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:03:58 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:03:58 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:06:10 INFO  GameRunner:18 - The program is running
+2021-06-05 01:06:10 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:06:20 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:06:20 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:06:20 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:08:31 INFO  GameRunner:18 - The program is running
+2021-06-05 01:08:31 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:08:41 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:08:41 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:08:41 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:08:59 INFO  GameRunner:18 - The program is running
+2021-06-05 01:09:00 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:09:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:09:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:09:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:10:26 INFO  GameRunner:18 - The program is running
+2021-06-05 01:10:26 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:10:38 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:10:38 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:10:38 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:10:59 INFO  GameRunner:18 - The program is running
+2021-06-05 01:11:00 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:11:11 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:11:11 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:11:11 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:11:54 INFO  GameRunner:18 - The program is running
+2021-06-05 01:11:54 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:12:03 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:12:03 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:12:03 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:07 INFO  GameRunner:18 - The program is running
+2021-06-05 01:13:08 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:13:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:19 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:19 DEBUG RegistrationMenu:119 - checking your password
+2021-06-05 01:13:19 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:13:23 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 01:13:23 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 01:13:23 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 01:13:23 INFO  RegistrationMenu:78 - the monster is assigned the rogue class
+2021-06-05 01:13:23 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 01:13:23 INFO  BattleMenu:114 - menu was created
+2021-06-05 01:13:25 INFO  BattleManager:18 - An attack has been madetest1 on the playerПробуждённый допельгангер a skill ULTIMATE
+2021-06-05 01:13:25 INFO  BattleManager:18 - An attack has been madeПробуждённый допельгангер on the playertest1 a skill BASIC
+2021-06-05 01:13:25 INFO  BattleManager:18 - An attack has been madetest1 on the playerПробуждённый допельгангер a skill ACTIVE2
+2021-06-05 01:13:25 INFO  BattleManager:18 - An attack has been madeПробуждённый допельгангер on the playertest1 a skill ULTIMATE
+2021-06-05 01:13:26 INFO  BattleManager:18 - An attack has been madetest1 on the playerПробуждённый допельгангер a skill ACTIVE1
+2021-06-05 01:13:26 INFO  BattleManager:18 - An attack has been madeПробуждённый допельгангер on the playertest1 a skill ACTIVE1
+2021-06-05 01:13:26 INFO  BattleManager:18 - An attack has been madetest1 on the playerПробуждённый допельгангер a skill BASIC
+2021-06-05 01:13:26 INFO  BattleManager:18 - An attack has been madeПробуждённый допельгангер on the playertest1 a skill ACTIVE2
+2021-06-05 01:13:27 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:13:31 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:13:35 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:35 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:35 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:35 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:35 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:35 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:38 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 01:13:46 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:46 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:46 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:46 DEBUG RegistrationMenu:107 - nickname verification successful
+2021-06-05 01:13:48 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:48 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:48 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:48 DEBUG RegistrationMenu:57 - 3 
+2021-06-05 01:13:48 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:48 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:48 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:13:48 INFO  RegistrationMenu:66 - успешная регистрация нового игрока
+2021-06-05 01:13:48 INFO  MonsterLevelManager:88 - menu was created
+2021-06-05 01:13:49 INFO  MonsterLevelManager:109 - changing the frame and changing the character picture(previous)
+2021-06-05 01:13:49 INFO  MonsterLevelManager:88 - menu was created
+2021-06-05 01:13:51 INFO  ClassDescription:48 - the rogue character is assigned a class description
+2021-06-05 01:13:52 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:13:52 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:13:52 INFO  MonsterLevelManager:107 - character was created
+2021-06-05 01:13:54 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 01:13:54 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 01:13:54 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 01:13:54 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-05 01:13:54 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 01:13:54 INFO  BattleMenu:114 - menu was created
+2021-06-05 01:13:55 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный костяной Дьявол a skill ACTIVE2
+2021-06-05 01:13:55 INFO  BattleManager:18 - An attack has been madeЗлобный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-05 01:13:56 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный костяной Дьявол a skill ULTIMATE
+2021-06-05 01:13:56 INFO  BattleManager:18 - An attack has been madeЗлобный костяной Дьявол on the playerгерой a skill BASIC
+2021-06-05 01:14:18 INFO  GameRunner:18 - The program is running
+2021-06-05 01:14:18 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:14:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:25 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:14:25 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:14:25 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:14:29 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 01:14:39 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:14:39 DEBUG RegistrationMenu:102 - nickname verification failed
+2021-06-05 01:14:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:42 DEBUG RegistrationMenu:57 - 3 
+2021-06-05 01:14:42 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:14:42 DEBUG RegistrationMenu:119 - checking your password
+2021-06-05 01:14:46 DEBUG RegistrationMenu:75 - ввод неверных данных
+2021-06-05 01:14:49 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:49 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:49 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:14:49 DEBUG RegistrationMenu:57 - 3 
+2021-06-05 01:14:49 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:14:49 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:14:49 DEBUG RegistrationMenu:119 - checking your password
+2021-06-05 01:14:49 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:14:50 INFO  RegistrationMenu:66 - успешная регистрация нового игрока
+2021-06-05 01:14:50 INFO  MonsterLevelManager:88 - menu was created
+2021-06-05 01:14:51 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-05 01:14:51 INFO  MonsterLevelManager:88 - menu was created
+2021-06-05 01:14:52 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-05 01:14:52 INFO  MonsterLevelManager:88 - menu was created
+2021-06-05 01:15:02 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 01:15:04 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:15:04 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:15:04 INFO  MonsterLevelManager:107 - character was created
+2021-06-05 01:15:08 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 01:15:08 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 01:15:08 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 01:15:08 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-05 01:15:08 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 01:15:09 INFO  BattleMenu:114 - menu was created
+2021-06-05 01:15:10 INFO  BattleManager:18 - An attack has been madeУмбра on the playerРьяный чуул a skill ULTIMATE
+2021-06-05 01:15:10 INFO  BattleManager:18 - An attack has been madeРьяный чуул on the playerУмбра a skill ACTIVE1
+2021-06-05 01:15:10 INFO  BattleManager:18 - An attack has been madeУмбра on the playerРьяный чуул a skill ACTIVE2
+2021-06-05 01:15:10 INFO  BattleManager:18 - An attack has been madeРьяный чуул on the playerУмбра a skill BASIC
+2021-06-05 01:15:11 INFO  BattleManager:18 - An attack has been madeУмбра on the playerРьяный чуул a skill ACTIVE1
+2021-06-05 01:15:11 INFO  BattleManager:18 - An attack has been madeРьяный чуул on the playerУмбра a skill ACTIVE2
+2021-06-05 01:15:14 INFO  BattleManager:18 - An attack has been madeУмбра on the playerРьяный чуул a skill BASIC
+2021-06-05 01:15:14 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:15:14 INFO  ExperienseManager:26 - Умбра получил новый уровень
+2021-06-05 01:15:14 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 01:15:15 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:15:17 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:38:54 INFO  GameRunner:18 - The program is running
+2021-06-05 01:38:54 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:39:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:05 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class WARRIOR
+2021-06-05 01:39:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:05 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class ROGUE
+2021-06-05 01:39:05 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:05 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class MAGE
+2021-06-05 01:39:05 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:39:05 DEBUG RegistrationMenu:119 - checking your password
+2021-06-05 01:39:05 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:39:09 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 01:39:09 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 01:39:09 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 01:39:09 INFO  RegistrationMenu:78 - the monster is assigned the rogue class
+2021-06-05 01:39:09 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 01:39:10 INFO  BattleMenu:114 - menu was created
+2021-06-05 01:39:10 INFO  BattleManager:18 - An attack has been madetest1 on the playerТеневой костяной Дьявол a skill ULTIMATE
+2021-06-05 01:39:10 INFO  BattleManager:18 - An attack has been madeТеневой костяной Дьявол on the playertest1 a skill ULTIMATE
+2021-06-05 01:39:11 INFO  BattleManager:18 - An attack has been madetest1 on the playerТеневой костяной Дьявол a skill ACTIVE2
+2021-06-05 01:39:11 INFO  BattleManager:18 - An attack has been madeТеневой костяной Дьявол on the playertest1 a skill ACTIVE2
+2021-06-05 01:39:12 INFO  BattleManager:18 - An attack has been madetest1 on the playerТеневой костяной Дьявол a skill ACTIVE1
+2021-06-05 01:39:12 INFO  BattleManager:18 - An attack has been madeТеневой костяной Дьявол on the playertest1 a skill BASIC
+2021-06-05 01:39:12 INFO  BattleManager:18 - An attack has been madetest1 on the playerТеневой костяной Дьявол a skill BASIC
+2021-06-05 01:39:12 INFO  BattleManager:18 - An attack has been madeТеневой костяной Дьявол on the playertest1 a skill BASIC
+2021-06-05 01:39:13 INFO  BattleManager:18 - An attack has been madetest1 on the playerТеневой костяной Дьявол a skill BASIC
+2021-06-05 01:39:13 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:13 INFO  ExperienseManager:26 - test1 получил новый уровень
+2021-06-05 01:39:13 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 01:39:14 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:39:18 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:39:20 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:20 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class WARRIOR
+2021-06-05 01:39:20 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:20 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class ROGUE
+2021-06-05 01:39:20 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:20 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class MAGE
+2021-06-05 01:39:20 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:39:20 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:39:20 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:39:22 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 01:39:24 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:24 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class WARRIOR
+2021-06-05 01:39:24 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:24 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class ROGUE
+2021-06-05 01:39:24 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:24 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class MAGE
+2021-06-05 01:39:24 DEBUG RegistrationMenu:57 - 3 
+2021-06-05 01:39:24 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:39:24 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:39:24 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:39:25 INFO  RegistrationMenu:66 - успешная регистрация нового игрока
+2021-06-05 01:39:25 INFO  MonsterLevelManager:88 - menu was created
+2021-06-05 01:39:28 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:39:28 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:39:28 INFO  MonsterLevelManager:107 - character was created
+2021-06-05 01:39:33 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 01:39:33 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 01:39:33 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 01:39:33 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-05 01:39:33 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 01:40:06 INFO  GameRunner:18 - The program is running
+2021-06-05 01:40:07 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:40:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:40:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:40:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:40:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:40:09 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class WARRIOR
+2021-06-05 01:40:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:40:09 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class ROGUE
+2021-06-05 01:40:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:40:09 DEBUG RegistrationMenu:88 - the object was restored Player name null, Class MAGE
+2021-06-05 01:40:09 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:40:09 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:40:09 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:42:06 INFO  GameRunner:18 - The program is running
+2021-06-05 01:42:07 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:42:08 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 01:42:11 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:42:11 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:42:11 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:42:11 DEBUG RegistrationMenu:107 - nickname verification successful
+2021-06-05 01:42:13 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:42:13 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 01:42:13 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:42:13 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 01:42:13 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:42:13 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 01:42:13 DEBUG RegistrationMenu:57 - 3 
+2021-06-05 01:42:13 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:42:13 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:42:13 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:42:14 INFO  RegistrationMenu:66 - успешная регистрация нового игрока
+2021-06-05 01:42:14 INFO  MonsterLevelManager:88 - menu was created
+2021-06-05 01:42:19 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 01:42:20 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-05 01:42:20 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 01:42:20 INFO  MonsterLevelManager:88 - menu was created
+2021-06-05 01:42:21 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:42:21 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:42:21 INFO  MonsterLevelManager:107 - character was created
+2021-06-05 01:42:24 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 01:42:24 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 01:42:24 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 01:42:24 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-05 01:42:24 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 01:42:24 INFO  BattleMenu:114 - menu was created
+2021-06-05 01:42:28 INFO  BattleManager:18 - An attack has been madeafafawf on the playerПробуждённый исчадие a skill ULTIMATE
+2021-06-05 01:42:28 INFO  BattleManager:18 - An attack has been madeПробуждённый исчадие on the playerafafawf a skill ACTIVE2
+2021-06-05 01:42:29 INFO  BattleManager:18 - An attack has been madeafafawf on the playerПробуждённый исчадие a skill ACTIVE2
+2021-06-05 01:42:29 INFO  BattleManager:18 - An attack has been madeПробуждённый исчадие on the playerafafawf a skill BASIC
+2021-06-05 01:42:30 INFO  BattleManager:18 - An attack has been madeafafawf on the playerПробуждённый исчадие a skill ACTIVE1
+2021-06-05 01:42:30 INFO  BattleManager:18 - An attack has been madeПробуждённый исчадие on the playerafafawf a skill ACTIVE1
+2021-06-05 01:42:30 INFO  BattleManager:18 - An attack has been madeafafawf on the playerПробуждённый исчадие a skill BASIC
+2021-06-05 01:42:30 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:42:30 INFO  ExperienseManager:26 - afafawf получил новый уровень
+2021-06-05 01:42:31 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 01:42:32 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:42:40 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 01:42:40 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 01:42:40 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 01:42:40 INFO  RegistrationMenu:78 - the monster is assigned the rogue class
+2021-06-05 01:42:40 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 01:42:40 INFO  BattleMenu:114 - menu was created
+2021-06-05 01:42:41 INFO  BattleManager:18 - An attack has been madeafafawf on the playerДревний костяной Дьявол a skill ULTIMATE
+2021-06-05 01:42:41 INFO  BattleManager:18 - An attack has been madeДревний костяной Дьявол on the playerafafawf a skill ULTIMATE
+2021-06-05 01:42:41 INFO  BattleManager:18 - An attack has been madeafafawf on the playerДревний костяной Дьявол a skill ACTIVE2
+2021-06-05 01:42:41 INFO  BattleManager:18 - An attack has been madeДревний костяной Дьявол on the playerafafawf a skill BASIC
+2021-06-05 01:42:42 INFO  BattleManager:18 - An attack has been madeafafawf on the playerДревний костяной Дьявол a skill ACTIVE1
+2021-06-05 01:42:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:42:42 INFO  ExperienseManager:26 - afafawf получил новый уровень
+2021-06-05 01:42:42 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 01:42:43 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:55:26 INFO  GameRunner:18 - The program is running
+2021-06-05 01:55:26 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:55:30 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 01:55:33 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:55:33 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:55:33 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:55:33 DEBUG RegistrationMenu:107 - nickname verification successful
+2021-06-05 01:55:35 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:55:35 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 01:55:35 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:55:35 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 01:55:35 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:55:35 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 01:55:35 DEBUG RegistrationMenu:57 - 3 
+2021-06-05 01:55:35 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:55:35 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:55:35 DEBUG RegistrationMenu:113 - checking your nickname
+2021-06-05 01:55:36 INFO  RegistrationMenu:66 - успешная регистрация нового игрока
+2021-06-05 01:55:36 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 01:55:44 INFO  ClassDescription:48 - the rogue character is assigned a class description
+2021-06-05 01:55:45 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:55:45 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:55:45 INFO  MonsterLevelManager:121 - character was created
+2021-06-05 01:55:46 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 01:55:46 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 01:55:46 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 01:55:46 INFO  RegistrationMenu:82 - the monster is assigned the mage class
+2021-06-05 01:55:46 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 01:55:46 INFO  BattleMenu:114 - menu was created
+2021-06-05 01:55:47 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный кваггот a skill ULTIMATE
+2021-06-05 01:55:47 INFO  BattleManager:18 - An attack has been madeОпасный кваггот on the playerгерой a skill BASIC
+2021-06-05 01:55:47 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный кваггот a skill ACTIVE2
+2021-06-05 01:55:47 INFO  BattleManager:18 - An attack has been madeОпасный кваггот on the playerгерой a skill BASIC
+2021-06-05 01:55:48 INFO  BattleManager:18 - An attack has been madeгерой on the playerОпасный кваггот a skill ACTIVE1
+2021-06-05 01:55:48 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:55:48 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-05 01:55:48 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 01:55:49 INFO  CharacterMenu:75 - menu was created
+2021-06-05 01:59:34 INFO  GameRunner:18 - The program is running
+2021-06-05 01:59:34 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 01:59:35 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 01:59:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:59:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:59:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:59:42 DEBUG RegistrationMenu:108 - nickname verification successful
+2021-06-05 01:59:44 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:59:44 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 01:59:44 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:59:44 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 01:59:44 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 01:59:44 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 01:59:44 DEBUG RegistrationMenu:58 - 3 
+2021-06-05 01:59:44 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 01:59:44 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 01:59:44 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 01:59:51 INFO  RegistrationMenu:67 - успешная регистрация нового игрока
+2021-06-05 01:59:51 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:03:06 INFO  GameRunner:18 - The program is running
+2021-06-05 02:03:07 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:03:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:03:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:03:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:03:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:03:09 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:03:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:03:09 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:03:09 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:03:09 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:03:09 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:03:09 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:03:09 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:06:25 INFO  GameRunner:18 - The program is running
+2021-06-05 02:06:26 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:06:32 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:32 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:32 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:32 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:32 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:06:32 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:32 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:06:32 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:32 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:06:32 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:06:32 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:06:32 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:06:35 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 02:06:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:42 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:06:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:42 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:06:42 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:42 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:06:42 DEBUG RegistrationMenu:58 - 3 
+2021-06-05 02:06:42 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:06:42 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:06:42 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:06:44 INFO  RegistrationMenu:67 - успешная регистрация нового игрока
+2021-06-05 02:06:44 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:06:45 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 02:06:46 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:06:46 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:06:46 INFO  MonsterLevelManager:121 - character was created
+2021-06-05 02:06:48 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 02:06:48 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 02:06:48 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 02:06:48 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-05 02:06:48 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 02:06:48 INFO  BattleMenu:114 - menu was created
+2021-06-05 02:11:56 INFO  GameRunner:18 - The program is running
+2021-06-05 02:11:57 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:12:02 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:02 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:02 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:02 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:02 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:12:02 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:02 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:12:02 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:02 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:12:02 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:12:02 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:12:02 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:12:05 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 02:12:07 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:07 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:12:07 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:07 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:12:07 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:07 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:12:07 DEBUG RegistrationMenu:58 - 3 
+2021-06-05 02:12:07 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:12:07 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:12:07 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:12:08 INFO  RegistrationMenu:67 - успешная регистрация нового игрока
+2021-06-05 02:12:08 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:12:12 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-05 02:12:12 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:12:12 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-05 02:12:12 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:12:13 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 02:12:14 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:14 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:12:14 INFO  MonsterLevelManager:121 - character was created
+2021-06-05 02:12:20 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:12:24 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:24 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:12:24 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:24 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:12:24 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:12:24 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:12:24 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:12:24 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:12:24 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:13:49 INFO  GameRunner:18 - The program is running
+2021-06-05 02:13:49 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:13:52 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:13:52 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:13:52 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:13:52 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:13:52 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:13:52 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:13:52 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:13:52 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:13:52 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:13:52 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:13:52 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:13:52 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:13:53 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 02:13:59 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:13:59 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:13:59 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:13:59 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:13:59 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:13:59 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:13:59 DEBUG RegistrationMenu:58 - 3 
+2021-06-05 02:13:59 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:13:59 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:13:59 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:14:00 INFO  RegistrationMenu:67 - успешная регистрация нового игрока
+2021-06-05 02:14:00 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:14:02 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-05 02:14:02 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:14:03 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-05 02:14:03 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:14:04 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 02:14:04 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:04 DEBUG RegistrationMenu:27 - the object was prepared for recording 071
+2021-06-05 02:14:04 DEBUG RegistrationMenu:27 - the object was prepared for recording 151
+2021-06-05 02:14:04 DEBUG RegistrationMenu:27 - the object was prepared for recording 231
+2021-06-05 02:14:04 DEBUG RegistrationMenu:27 - the object was prepared for recording 221
+2021-06-05 02:14:04 DEBUG RegistrationMenu:27 - the object was prepared for recording 221
+2021-06-05 02:14:04 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:14:04 INFO  MonsterLevelManager:121 - character was created
+2021-06-05 02:14:07 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 02:14:07 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 02:14:07 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 02:14:07 INFO  RegistrationMenu:82 - the monster is assigned the mage class
+2021-06-05 02:14:07 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 02:14:07 INFO  BattleMenu:114 - menu was created
+2021-06-05 02:14:08 INFO  BattleManager:18 - An attack has been madeгерой on the playerЛихой исчадие a skill ULTIMATE
+2021-06-05 02:14:08 INFO  BattleManager:18 - An attack has been madeЛихой исчадие on the playerгерой a skill BASIC
+2021-06-05 02:14:08 INFO  BattleManager:18 - An attack has been madeгерой on the playerЛихой исчадие a skill ACTIVE2
+2021-06-05 02:14:08 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:08 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-05 02:14:08 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 02:14:10 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:14:15 INFO  GameRunner:18 - The program is running
+2021-06-05 02:14:16 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:14:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:14:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:14:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:14:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:14:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:14:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:14:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:14:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:14:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:14:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:14:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:19:56 INFO  GameRunner:18 - The program is running
+2021-06-05 02:19:56 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:20:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:20:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:20:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:20:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:20:12 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:20:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:20:12 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:20:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:20:12 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:20:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:20:12 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:20:12 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:20:12 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:20:12 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:20:12 DEBUG RegistrationMenu:119 - checking your password
+2021-06-05 02:20:12 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:20:14 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 02:20:14 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 02:20:14 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 02:20:14 INFO  RegistrationMenu:78 - the monster is assigned the rogue class
+2021-06-05 02:20:14 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 02:20:14 INFO  BattleMenu:114 - menu was created
+2021-06-05 02:20:16 INFO  BattleManager:18 - An attack has been madetest1 on the playerПритаившийся допельгангер a skill ULTIMATE
+2021-06-05 02:20:16 INFO  BattleManager:18 - An attack has been madeПритаившийся допельгангер on the playertest1 a skill ULTIMATE
+2021-06-05 02:20:16 INFO  BattleManager:18 - An attack has been madetest1 on the playerПритаившийся допельгангер a skill ACTIVE2
+2021-06-05 02:20:16 INFO  BattleManager:18 - An attack has been madeПритаившийся допельгангер on the playertest1 a skill ACTIVE1
+2021-06-05 02:20:16 INFO  BattleManager:18 - An attack has been madetest1 on the playerПритаившийся допельгангер a skill ACTIVE1
+2021-06-05 02:20:16 INFO  BattleManager:18 - An attack has been madeПритаившийся допельгангер on the playertest1 a skill BASIC
+2021-06-05 02:20:17 INFO  BattleManager:18 - An attack has been madetest1 on the playerПритаившийся допельгангер a skill BASIC
+2021-06-05 02:20:17 INFO  BattleManager:18 - An attack has been madeПритаившийся допельгангер on the playertest1 a skill ACTIVE2
+2021-06-05 02:20:17 INFO  BattleManager:18 - An attack has been madetest1 on the playerПритаившийся допельгангер a skill BASIC
+2021-06-05 02:20:17 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:20:17 INFO  ExperienseManager:26 - test1 получил новый уровень
+2021-06-05 02:20:17 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 02:20:18 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:20:19 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 02:20:19 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 02:20:19 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 02:20:19 INFO  RegistrationMenu:78 - the monster is assigned the rogue class
+2021-06-05 02:20:19 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 02:20:19 INFO  BattleMenu:114 - menu was created
+2021-06-05 02:20:20 INFO  BattleManager:18 - An attack has been madetest1 on the playerБезумный баатезу a skill ACTIVE1
+2021-06-05 02:20:20 INFO  BattleManager:18 - An attack has been madeБезумный баатезу on the playertest1 a skill BASIC
+2021-06-05 02:20:20 INFO  BattleManager:18 - An attack has been madetest1 on the playerБезумный баатезу a skill BASIC
+2021-06-05 02:20:20 INFO  BattleManager:18 - An attack has been madeБезумный баатезу on the playertest1 a skill BASIC
+2021-06-05 02:20:21 INFO  BattleManager:18 - An attack has been madetest1 on the playerБезумный баатезу a skill BASIC
+2021-06-05 02:20:21 INFO  BattleManager:18 - An attack has been madeБезумный баатезу on the playertest1 a skill BASIC
+2021-06-05 02:20:22 INFO  BattleManager:18 - An attack has been madetest1 on the playerБезумный баатезу a skill ACTIVE2
+2021-06-05 02:20:22 INFO  BattleManager:18 - An attack has been madeБезумный баатезу on the playertest1 a skill BASIC
+2021-06-05 02:20:22 INFO  BattleManager:18 - An attack has been madetest1 on the playerБезумный баатезу a skill BASIC
+2021-06-05 02:20:22 INFO  BattleManager:18 - An attack has been madeБезумный баатезу on the playertest1 a skill BASIC
+2021-06-05 02:20:23 INFO  BattleManager:18 - An attack has been madetest1 on the playerБезумный баатезу a skill BASIC
+2021-06-05 02:20:23 INFO  BattleManager:18 - An attack has been madeБезумный баатезу on the playertest1 a skill BASIC
+2021-06-05 02:20:23 INFO  BattleManager:18 - An attack has been madetest1 on the playerБезумный баатезу a skill BASIC
+2021-06-05 02:20:23 INFO  BattleManager:18 - An attack has been madeБезумный баатезу on the playertest1 a skill BASIC
+2021-06-05 02:24:14 INFO  GameRunner:18 - The program is running
+2021-06-05 02:24:14 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:24:17 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 02:24:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class WARRIOR
+2021-06-05 02:24:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class ROGUE
+2021-06-05 02:24:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:24:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:24:19 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:19 DEBUG RegistrationMenu:62 - the object was restored Player name null, Class MAGE
+2021-06-05 02:24:19 DEBUG RegistrationMenu:58 - 5 
+2021-06-05 02:24:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:24:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:24:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:24:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:24:19 DEBUG RegistrationMenu:114 - checking your nickname
+2021-06-05 02:24:20 INFO  RegistrationMenu:67 - успешная регистрация нового игрока
+2021-06-05 02:24:20 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:24:21 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 02:24:22 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:22 DEBUG RegistrationMenu:27 - the object was prepared for recording 071
+2021-06-05 02:24:22 DEBUG RegistrationMenu:27 - the object was prepared for recording 151
+2021-06-05 02:24:22 DEBUG RegistrationMenu:27 - the object was prepared for recording 231
+2021-06-05 02:24:22 DEBUG RegistrationMenu:27 - the object was prepared for recording 201
+2021-06-05 02:24:22 DEBUG RegistrationMenu:27 - the object was prepared for recording 201
+2021-06-05 02:24:22 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:24:22 INFO  MonsterLevelManager:121 - character was created
+2021-06-05 02:24:23 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 02:24:23 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 02:24:23 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 02:24:23 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-05 02:24:23 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 02:24:23 INFO  BattleMenu:114 - menu was created
+2021-06-05 02:24:24 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:24:30 INFO  GameRunner:18 - The program is running
+2021-06-05 02:24:31 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:24:35 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:35 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:24:35 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:25:10 INFO  GameRunner:18 - The program is running
+2021-06-05 02:25:11 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:25:14 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:25:14 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:25:14 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:25:14 DEBUG RegistrationMenu:27 - the object was prepared for recording 071
+2021-06-05 02:25:14 DEBUG RegistrationMenu:27 - the object was prepared for recording 151
+2021-06-05 02:25:14 DEBUG RegistrationMenu:27 - the object was prepared for recording 231
+2021-06-05 02:25:17 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 02:25:19 DEBUG RegistrationMenu:58 - 0 
+2021-06-05 02:25:20 INFO  RegistrationMenu:67 - успешная регистрация нового игрока
+2021-06-05 02:25:20 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:25:22 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 02:25:23 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:25:23 DEBUG RegistrationMenu:27 - the object was prepared for recording 071
+2021-06-05 02:25:23 DEBUG RegistrationMenu:27 - the object was prepared for recording 151
+2021-06-05 02:25:23 DEBUG RegistrationMenu:27 - the object was prepared for recording 231
+2021-06-05 02:25:23 DEBUG RegistrationMenu:27 - the object was prepared for recording 201
+2021-06-05 02:25:23 DEBUG RegistrationMenu:27 - the object was prepared for recording 201
+2021-06-05 02:25:23 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:25:23 INFO  MonsterLevelManager:121 - character was created
+2021-06-05 02:25:24 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 02:25:24 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 02:25:24 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 02:25:24 INFO  RegistrationMenu:78 - the monster is assigned the rogue class
+2021-06-05 02:25:24 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 02:25:24 INFO  BattleMenu:114 - menu was created
+2021-06-05 02:25:25 INFO  BattleManager:18 - An attack has been madeгерой on the playerЛихой хитн a skill ULTIMATE
+2021-06-05 02:25:25 INFO  BattleManager:18 - An attack has been madeЛихой хитн on the playerгерой a skill ULTIMATE
+2021-06-05 02:25:25 INFO  BattleManager:18 - An attack has been madeгерой on the playerЛихой хитн a skill ACTIVE2
+2021-06-05 02:25:25 INFO  BattleManager:18 - An attack has been madeЛихой хитн on the playerгерой a skill BASIC
+2021-06-05 02:25:25 INFO  BattleManager:18 - An attack has been madeгерой on the playerЛихой хитн a skill ACTIVE1
+2021-06-05 02:25:25 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:25:25 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-05 02:25:25 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 02:25:27 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:25:28 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:26:34 INFO  GameRunner:18 - The program is running
+2021-06-05 02:26:34 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 02:26:37 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 02:26:40 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:26:40 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:26:40 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:26:40 DEBUG RegistrationMenu:58 - 0 
+2021-06-05 02:26:40 INFO  RegistrationMenu:67 - успешная регистрация нового игрока
+2021-06-05 02:26:41 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:26:42 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 02:26:44 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-05 02:26:44 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 02:26:44 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 02:26:45 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 02:26:46 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:26:46 DEBUG RegistrationMenu:27 - the object was prepared for recording 071
+2021-06-05 02:26:46 DEBUG RegistrationMenu:27 - the object was prepared for recording 151
+2021-06-05 02:26:46 DEBUG RegistrationMenu:27 - the object was prepared for recording 231
+2021-06-05 02:26:46 DEBUG RegistrationMenu:27 - the object was prepared for recording 211
+2021-06-05 02:26:46 DEBUG RegistrationMenu:27 - the object was prepared for recording 211
+2021-06-05 02:26:46 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:26:46 INFO  MonsterLevelManager:121 - character was created
+2021-06-05 02:26:47 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 02:26:47 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 02:26:47 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 02:26:47 INFO  RegistrationMenu:74 - the monster is assigned the warrior class
+2021-06-05 02:26:47 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 02:26:47 INFO  BattleMenu:114 - menu was created
+2021-06-05 02:26:48 TRACE BattleMenu:148 - ultimate attack used
+2021-06-05 02:26:48 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный карга a skill ULTIMATE
+2021-06-05 02:26:48 TRACE BattleManager:84 - Ultimate Damage calculated
+2021-06-05 02:26:48 TRACE BattleManager:41 - An attack record was created
+2021-06-05 02:26:48 TRACE BattleManager:48 - skill name passed
+2021-06-05 02:26:48 TRACE MonsterLogic:66 - the monster attack
+2021-06-05 02:26:48 TRACE MonsterLogic:25 - the monster chooses a skill to hit
+2021-06-05 02:26:48 INFO  BattleManager:18 - An attack has been madeЗлобный карга on the playerгерой a skill ACTIVE1
+2021-06-05 02:26:48 TRACE BattleManager:76 - Increased damage calculated
+2021-06-05 02:26:48 TRACE BattleManager:41 - An attack record was created
+2021-06-05 02:26:48 TRACE BattleManager:48 - skill name passed
+2021-06-05 02:26:48 TRACE MonsterLogic:33 - the monster uses an improved skill
+2021-06-05 02:26:48 TRACE BattleMenu:143 - active2 attack used
+2021-06-05 02:26:48 INFO  BattleManager:18 - An attack has been madeгерой on the playerЗлобный карга a skill ACTIVE2
+2021-06-05 02:26:48 TRACE BattleManager:80 - Special damage calculated
+2021-06-05 02:26:48 TRACE BattleManager:41 - An attack record was created
+2021-06-05 02:26:48 TRACE BattleManager:48 - skill name passed
+2021-06-05 02:26:48 TRACE MonsterLogic:66 - the monster attack
+2021-06-05 02:26:48 TRACE MonsterLogic:25 - the monster chooses a skill to hit
+2021-06-05 02:26:48 INFO  BattleManager:18 - An attack has been madeЗлобный карга on the playerгерой a skill ULTIMATE
+2021-06-05 02:26:48 TRACE BattleManager:84 - Ultimate Damage calculated
+2021-06-05 02:26:48 TRACE BattleManager:41 - An attack record was created
+2021-06-05 02:26:48 TRACE BattleManager:48 - skill name passed
+2021-06-05 02:26:48 TRACE MonsterLogic:53 - the monster uses a ultimate skill
+2021-06-05 02:26:48 INFO  RegistrationMenu:48 - Игроку присваивается новый уровень
+2021-06-05 02:26:48 INFO  ExperienseManager:26 - герой получил новый уровень
+2021-06-05 02:26:48 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 02:26:50 INFO  CharacterMenu:75 - menu was created
+2021-06-05 02:26:51 INFO  RegistrationMenu:60 - the menu was created

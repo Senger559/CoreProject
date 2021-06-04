@@ -18,7 +18,11 @@ import by.bobruisk.konsov.game.skills.WarActiv1;
 import by.bobruisk.konsov.game.skills.WarActiv2;
 import by.bobruisk.konsov.game.skills.WarBasic;
 import by.bobruisk.konsov.game.skills.WarUltimate;
-
+/**
+ * Completes character creation when the player has decided on the character's class and avatar
+ * @author Senger
+ *
+ */
 public class CharacterCreator {
 	private static String name = "герой";
 	
@@ -32,8 +36,13 @@ public class CharacterCreator {
 		setSkills(player);
 		PlayerLevelManager.lvlUp(player);
 		PlayerData.getPlayers().add(player);
+		FileManager fm = new FileManager();
+		fm.write(player);
 		return player;
 	}
+	/**
+	 * Accepts the name from the text field, checks if the name string is empty
+	 */
 	public static void saveName(String charName) {
 		if(!charName.isEmpty()) {
 			name = charName;
@@ -42,6 +51,9 @@ public class CharacterCreator {
 	public static String getName() {
 		return name;
 	}
+	/**
+	 * sets skills according to the character's class
+	 */
 	public static void setSkills(Player player) {
 		if (player.getPlayerClass() == PlayerClass.WARRIOR) {
 			setWarriorSkills(player);

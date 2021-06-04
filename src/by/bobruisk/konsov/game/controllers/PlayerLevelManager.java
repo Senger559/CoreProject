@@ -1,8 +1,15 @@
 package by.bobruisk.konsov.game.controllers;
 
+import org.apache.log4j.Logger;
+
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.PlayerClass;
-
+import by.bobruisk.konsov.game.view.RegistrationMenu;
+/**
+ * This class sets the parameters of players depending on the level of the player
+ * @author Sergey 
+ *
+ */
 public class PlayerLevelManager {
 	private static final int warriorHealthMod = 20;
 	private static final int warriorBasicHealth = 200;
@@ -36,8 +43,9 @@ public class PlayerLevelManager {
 	private static final int mageBasicDex = 15;
 	private static final int mageIntMod = 10;
 	private static final int mageBasicInt = 55;
-	
+	private final static Logger LOGGER = Logger.getLogger(RegistrationMenu.class);
 	public static void lvlUp(Player player) {
+		LOGGER.info("Игроку присваивается новый уровень");
 		if (player.getPlayerClass() == PlayerClass.WARRIOR) {
 			WarSetLvlStats(player,player.getLevel());
 		} else if (player.getPlayerClass() == PlayerClass.ROGUE) {

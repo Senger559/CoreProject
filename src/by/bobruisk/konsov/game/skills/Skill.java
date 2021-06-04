@@ -3,9 +3,15 @@ package by.bobruisk.konsov.game.skills;
 import java.io.Serializable;
 
 import by.bobruisk.konsov.game.resourses.SkillType;
-
+/**
+ * basic abstract skill class
+ * @author Sergey
+ *
+ */
 public abstract class Skill implements SkillMechanic, Serializable{
 
+
+	private static final long serialVersionUID = -2965930876911519204L;
 	protected String name;
 	protected String description;
 	protected SkillType skillType;

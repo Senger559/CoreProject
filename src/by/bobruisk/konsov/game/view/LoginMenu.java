@@ -10,6 +10,8 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
+import org.apache.log4j.Logger;
+
 import by.bobruisk.konsov.game.controllers.Verification;
 import by.bobruisk.konsov.game.main.GameRunner;
 import by.bobruisk.konsov.game.resourses.Labels;
@@ -21,8 +23,10 @@ import by.bobruisk.konsov.game.view.helper.FrameSelector;
 
 public class LoginMenu  extends JFrame{
 
-		/**
-	 * 
+	/**
+	 * This class creates the login menu
+	 * @author Sergey
+	 *
 	 */
 	private static final long serialVersionUID = 629607158029219621L;
 		private JLabel login= Labels.createColorlessLabel("Логин:", Color.white,220, 450, 200, 80);  
@@ -34,6 +38,7 @@ public class LoginMenu  extends JFrame{
 		private JLabel  check = Labels.createColorlessLabel("", Color.white, 350, 410, 200, 80);
 		private JTextField enteringLogin=TextFields.createTextFForLogMenu(Color.white, 355, 476, 200, 30);
 		private JTextField enteringPassword=TextFields.createTextFForLogMenu(Color.white, 355, 526, 200, 30);
+		private final static Logger LOGGER = Logger.getLogger(RegistrationMenu.class);
 		
 		public LoginMenu() {
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -44,17 +49,15 @@ public class LoginMenu  extends JFrame{
 			enter.addMouseListener(new MouseAdapter() {
 				public void mouseClicked(MouseEvent e) {
 					Verification.checkingEntered(enteringLogin.getText(), enteringPassword.getText());
-					JOptionPane.showMessageDialog(GameRunner.getFrame(), "Тык работает!");
 				}
 			});
 			registration.addMouseListener(new MouseAdapter() {
 				public void mouseClicked(MouseEvent e) {
-					JOptionPane.showMessageDialog(GameRunner.getFrame(), "Тык работает!");
 					FrameSelector.getRegistrationMenu();
 					
 				}
 			});
-			
+			LOGGER.info("the menu was created");
 			setVisible(true);
 		}
 }

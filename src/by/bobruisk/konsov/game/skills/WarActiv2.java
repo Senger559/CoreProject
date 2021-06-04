@@ -2,9 +2,14 @@ package by.bobruisk.konsov.game.skills;
 
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.SkillType;
-
+/**
+ * stores the mechanics of the active2 skill
+ */
 public class WarActiv2 extends Skill{
 	
+
+	private static final long serialVersionUID = -4239509332270918350L;
+
 	{
 		skillType= SkillType.ACTIVE2;
 		name = "Усиление";

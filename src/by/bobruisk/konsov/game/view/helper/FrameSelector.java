@@ -7,7 +7,11 @@ import by.bobruisk.konsov.game.view.CharacterMenu;
 import by.bobruisk.konsov.game.view.CreateCharacterMenu;
 import by.bobruisk.konsov.game.view.LoginMenu;
 import by.bobruisk.konsov.game.view.RegistrationMenu;
-
+/**
+ * responsible for changing frames
+ * @author Sergey
+ *
+ */
 public class FrameSelector {
 	
 	public static void getLoginMenu() {

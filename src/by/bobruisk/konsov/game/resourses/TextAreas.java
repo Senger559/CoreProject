@@ -1,9 +1,11 @@
 package by.bobruisk.konsov.game.resourses;
 
-import java.awt.Color;
-
 import javax.swing.JTextArea;
-
+/**
+ * generates a JTextArea based on the ready-made parameters
+ * @author Sergey
+ *
+ */
 public class TextAreas {
 	public static JTextArea createUneditable(int x,int y,int width,int height) {
 		JTextArea ta = new JTextArea();	

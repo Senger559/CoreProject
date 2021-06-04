@@ -1,11 +1,15 @@
 package by.bobruisk.konsov.game.resourses;
-
+/**
+ *  stores all pictures
+ * @author Senger
+ *
+ */
 public class PicturesData {
 	
 	private static String [] url = new String[14];
 	private static int selectedPicture = 0;
 	private static String[] monsterUrl = new String [11];
-//	private static int selectedMonster = 0;
+
 	static {
 		url[0] = "Mage00.jpg";
 		url[1] = "Mage01.jpg";

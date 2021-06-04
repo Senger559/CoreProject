@@ -3,13 +3,17 @@ package by.bobruisk.konsov.game.resourses;
 import java.awt.Color;
 import java.awt.Font;
 
-import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
-import by.bobruisk.konsov.game.model.Player;
-
+/**
+ * This class contains templates for creating Jlabel elements
+ * @author Sergey
+ *
+ */
 public class Labels {
-
+	/**
+	 * creates a transparent label with no borders and a white font color
+	 */
 	public static JLabel createColorlessLabel( String name, Color foreground,int x,int y,int width,int height) {
 		JLabel label = new JLabel(name);
 		label.setBounds(x, y, width, height);
@@ -18,7 +22,9 @@ public class Labels {
 		label.setHorizontalAlignment(JLabel.CENTER);
 		return label;
 	}
-
+	/**
+	 * creates a label with a defined background color. default is white
+	 */
 	public static JLabel createColorLabel ( String name, Color background,int x,int y,int width,int height) {
 		JLabel label = new JLabel();
 		label.setName(name);
@@ -28,6 +34,9 @@ public class Labels {
 		label.setHorizontalAlignment(JLabel.CENTER);
 		return label;
 	}
+	/**
+	 * creates a label with the character's name
+	 */
 	public static JLabel createCharacterLabel(String name,int x,int y,int width,int height) {
 		JLabel label = new JLabel(name);
 		label.setBounds(x, y, width, height);

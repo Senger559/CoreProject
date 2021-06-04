@@ -1,8 +1,14 @@
 package by.bobruisk.konsov.game.controllers;
 
+import org.apache.log4j.Logger;
+
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.PlayerClass;
-
+/**
+ * This class sets the parameters of monsters depending on the level of the player
+ * @author Sergey 
+ *
+ */
 public class MonsterLevelManager {
 	private static final int warriorHealthMod = 25;
 	private static final int warriorBasicHealth = 350;
@@ -36,8 +42,10 @@ public class MonsterLevelManager {
 	private static final int mageBasicDex = 15;
 	private static final int mageIntMod = 5;
 	private static final int mageBasicInt = 15;
-
+	private final static Logger LOGGER = Logger.getLogger(MonsterLevelManager.class);
+	
 	public static void lvlUp(Player monster) {
+		LOGGER.info("monster lelel up " + monster.getLevel());
 		if (monster.getPlayerClass() == PlayerClass.WARRIOR) {
 			WarSetLvlStats(monster,monster.getLevel());
 		} else if (monster.getPlayerClass() == PlayerClass.ROGUE) {

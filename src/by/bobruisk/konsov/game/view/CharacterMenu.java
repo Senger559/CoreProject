@@ -9,15 +9,21 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-import by.bobruisk.konsov.game.controllers.CharacterCreator;
+import org.apache.log4j.Logger;
+
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.Buttons;
 import by.bobruisk.konsov.game.resourses.Labels;
-import by.bobruisk.konsov.game.resourses.PicturesData;
 import by.bobruisk.konsov.game.view.helper.ComponentHelper;
 import by.bobruisk.konsov.game.view.helper.FrameSelector;
-
+/**
+ * This class creates the character menu
+ * @author Sergey
+ *
+ */
 public class CharacterMenu extends JFrame{
+	private static final long serialVersionUID = -6874980771312025209L;
+	private final static Logger LOGGER = Logger.getLogger(CharacterMenu.class);
 	private JLabel name;
 	private JLabel avatar;
 	private JLabel level;	
@@ -40,7 +46,7 @@ public class CharacterMenu extends JFrame{
 		getContentPane().setBackground(Color.white);
 		name = Labels.createCharacterLabel(player.getName(), 50, 0, 250, 20);
 		avatar = new JLabel(
-				new ImageIcon(LoginMenu.class.getClassLoader().getResource(player.getIi())));
+				new ImageIcon(CharacterMenu.class.getClassLoader().getResource(player.getIi())));
 		level = Labels.createCharacterLabel("Уровень: " + player.getLevel(), 50, 380, 250, 20);	
 		clas = Labels.createCharacterLabel("Класс: " + player.getPlayerClass(), 50, 420, 250, 20);	
 		health = Labels.createCharacterLabel("Здоровье: " + player.getHealthPoints(), 50, 460, 250, 20);	
@@ -66,6 +72,7 @@ public class CharacterMenu extends JFrame{
 		});
 		ComponentHelper.addComponents(this.getContentPane(), 
 				name,level,anotherAccount,playBattle,clas,health,defence,power,dexterity,intelligence,expirience,avatar);
+		LOGGER.info("menu was created");
 		setVisible(true);
 	}
 }

@@ -4,8 +4,13 @@ import java.util.Random;
 
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.SkillType;
-
+/**
+ * stores the mechanics of the ultimate skill
+ * @author Senger
+ *
+ */
 public class RogUltimate extends Skill{
+	private static final long serialVersionUID = -8739575403570626783L;
 	{
 		skillType= SkillType.ULTIMATE;
 		name = "ашёъ";

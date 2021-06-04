@@ -2,16 +2,23 @@ package by.bobruisk.konsov.game.controllers;
 
 import java.util.Random;
 
+import org.apache.log4j.Logger;
+
 import by.bobruisk.konsov.game.model.Player;
 import by.bobruisk.konsov.game.resourses.PicturesData;
 import by.bobruisk.konsov.game.resourses.PlayerClass;
-
+import by.bobruisk.konsov.game.view.RegistrationMenu;
+/**
+ * Creates an enemy monster according to the level of the character
+ * @author Sergey
+ *
+ */
 public class OpponentCreator {
 	private static String[] monsterName = new String[11];
 	private static String[] tag= new String[11];
 	private static int selectedMonster = 0;
 	private static int monsterPool = 11;
-	
+	private final static Logger LOGGER = Logger.getLogger(RegistrationMenu.class);
 	static {
 		monsterName[0] = "чуул";
 		monsterName[1] = "кобольд";
@@ -38,6 +45,7 @@ public class OpponentCreator {
 	}
 	
 	public Player getNewMonster (int playerLevel) {
+		LOGGER.info("a new monster is being created");
 		Player monster = new Player();
 		monster.setLevel(playerLevel);
 		monster.setIi(addImage());
@@ -48,10 +56,12 @@ public class OpponentCreator {
 		return monster;
 	}
 	private String createName() {
+		LOGGER.info("the monster is given a name");
 		Random random = new Random();
 		return tag[random.nextInt(monsterPool)] + " " +  monsterName[selectedMonster];
 	}
 	private String addImage() {
+		LOGGER.info("the monster is assigned a picture");
 		Random random = new Random();
 		selectedMonster = random.nextInt(monsterPool); 
 		return PicturesData.getMonsterUrl()[selectedMonster];
@@ -61,12 +71,15 @@ public class OpponentCreator {
 		switch (random) {
 		case 0:
 			monster.setPlayerClass(PlayerClass.WARRIOR);
+			LOGGER.info("the monster is assigned the warrior class");
 			break;
 		case 1:
 			monster.setPlayerClass(PlayerClass.ROGUE);
+			LOGGER.info("the monster is assigned the rogue class");
 			break;
 		case 2:
 			monster.setPlayerClass(PlayerClass.MAGE);
+			LOGGER.info("the monster is assigned the mage class");
 			break;
 		}
 	}

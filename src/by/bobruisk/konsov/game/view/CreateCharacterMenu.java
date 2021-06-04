@@ -8,13 +8,17 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.PlainDocument;
 
+import org.apache.log4j.Logger;
+
 import by.bobruisk.konsov.game.controllers.CharacterCreator;
+import by.bobruisk.konsov.game.controllers.MonsterLevelManager;
 import by.bobruisk.konsov.game.main.GameRunner;
 import by.bobruisk.konsov.game.resourses.Buttons;
 import by.bobruisk.konsov.game.resourses.ClassDescription;
@@ -24,9 +28,15 @@ import by.bobruisk.konsov.game.resourses.PlayerClass;
 import by.bobruisk.konsov.game.resourses.TextAreas;
 import by.bobruisk.konsov.game.view.helper.ComponentHelper;
 import by.bobruisk.konsov.game.view.helper.FrameSelector;
-
+/**
+ * This class creates the create character menu
+ * @author Sergey
+ *
+ */
 
 public class CreateCharacterMenu extends JFrame{
+	private static final long serialVersionUID = 2914731787995347779L;
+	private final static Logger LOGGER = Logger.getLogger(MonsterLevelManager.class);
 	private ActionListener SelectClassJB = new ButListener();
 	private JTextField enteringName = new JTextField("Введите имя");
 	private JTextArea characterDescription = TextAreas.createUneditable(567, 0, 300, 900);
@@ -41,7 +51,6 @@ public class CreateCharacterMenu extends JFrame{
 	private JButton mage = Buttons.createClassButton("mage", 300, 560, 250, 30);
 	private JButton create = Buttons.createButton("Создать", 365, 640, 124, 30);
 	
-	
 	public CreateCharacterMenu() {	
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -53,7 +62,9 @@ public class CreateCharacterMenu extends JFrame{
 		enteringName.setBounds(300, 0, 250, 30);
 		enteringName.setHorizontalAlignment(JLabel.CENTER);
 		enteringName.setDocument(new PlainDocument() {
-            @Override
+			private static final long serialVersionUID = 1L;
+
+			@Override
             public void insertString(int offs,String str, AttributeSet a) throws BadLocationException {
                     if (getLength()< 16) {
                         super.insertString(offs, str,a);
@@ -76,6 +87,7 @@ public class CreateCharacterMenu extends JFrame{
 		create.setActionCommand("create");
 		characterDescription.setText(ClassDescription.getDescription());
 		ComponentHelper.addComponents(this.getContentPane(),warrior,rogue,mage, selectClas,characterDescription, enteringName,selectAvatar,previous,next,create,avatar);
+		LOGGER.info("menu was created");
 		setVisible(true);
 	}
 	class ButListener implements ActionListener{
@@ -92,18 +104,27 @@ public class CreateCharacterMenu extends JFrame{
 				ClassDescription.setSelected(PlayerClass.MAGE);
 				characterDescription.setText(ClassDescription.getDescription());
 			} else if("create".equals(e.getActionCommand())) {
-				CharacterCreator.saveName(enteringName.getText());
-				
-				// далее добавление шаблона в зависимости от класса				
-				FrameSelector.getCharacterMenu(CharacterCreator.create());
-				
-				
+				isClassSelected();
 			} else if("previous".equals(e.getActionCommand())) {
+				LOGGER.info("changing the frame and changing the character picture(previous)");
 				getAnotherPicture(PicturesData.getSelectedPicture()-1);
 			} else if("next".equals(e.getActionCommand())) {
+				LOGGER.info("changing the frame and changing the character picture(next)");
 				getAnotherPicture(PicturesData.getSelectedPicture()+1);			
 			}
 		}
+		
+		private void isClassSelected() {
+			if(ClassDescription.getSelected() != null) {
+				CharacterCreator.saveName(enteringName.getText());			
+				FrameSelector.getCharacterMenu(CharacterCreator.create());
+				LOGGER.info("character was created");
+			} else {
+				JOptionPane.showMessageDialog(GameRunner.getFrame(), "Сначала выберите класс!!");
+			}
+			
+		}
+
 		public void getAnotherPicture(int picNumber) {
 			if(picNumber<0) {
 				PicturesData.setSelectedPicture(PicturesData.getUrl().length-1);

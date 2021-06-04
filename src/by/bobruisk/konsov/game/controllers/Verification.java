@@ -7,26 +7,34 @@ import java.util.List;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
-import by.bobruisk.konsov.game.main.GameRunner;
-import by.bobruisk.konsov.game.model.Account;
-import by.bobruisk.konsov.game.resourses.Accounts;
-import by.bobruisk.konsov.game.view.helper.FrameSelector;
+import org.apache.log4j.Logger;
 
+import by.bobruisk.konsov.game.main.GameRunner;
+import by.bobruisk.konsov.game.model.Player;
+import by.bobruisk.konsov.game.view.RegistrationMenu;
+import by.bobruisk.konsov.game.view.helper.FrameSelector;
+/**
+ * This class checks the correctness of filling in the fields and checks the uniqueness of the login-password pair
+ * @author Sergey 
+ *
+ */
 public class Verification {
 	private static FileManager fileManager = new FileManager();
-	private static ArrayList<Account> accounts;
+	private static List<Player> players = new ArrayList<>();
+	private final static Logger LOGGER = Logger.getLogger(RegistrationMenu.class);
+	
 	public static void checkingEntered(String login, String password) {
-		
+		fileManager.checkFile();
+		setPlayers(fileManager.extract());
 		if (login.isEmpty() || password.isEmpty()) {
 			JOptionPane.showMessageDialog(GameRunner.getFrame(), "Заполните пустующие поля!");
+			LOGGER.debug("fields are not filled in");
 		} else {
-			fileManager.checkFile();
-//			accounts = fileManager.read();
 			boolean search = false;
-			for (int i = 0; i < accounts.size(); i++) {
-				if (checkLogin(accounts, login, i) && checkPassword(accounts,password, i)) {
+			for (int i = 0; i < players.size(); i++) {
+				if (checkLogin( login, i) && checkPassword(password, i)) {
 					search = true;
-					FrameSelector.getCharacterMenu(accounts.get(i).getPlayer());
+					FrameSelector.getCharacterMenu(players.get(i));
 					break;
 				}
 			}
@@ -36,38 +44,50 @@ public class Verification {
 			}
 		}
 	}
-
+/**
+ * This method checks the registration
+ */
 	public static void registrationCheck(String login, String password) {
+		fileManager.checkFile();
+		setPlayers(fileManager.extract());	
 		if (login.isEmpty() || password.isEmpty()) {
 			JOptionPane.showMessageDialog(GameRunner.getFrame(), "Заполните пустующие поля!");
+			LOGGER.debug("fields are not filled in");
 		} else {
-			fileManager.checkFile();
 			boolean search = false;
-			for (int i = 0; i < accounts.size(); i++) {
-				if (checkLogin(accounts,login, i) && checkPassword(accounts,password, i)) {
+			LOGGER.debug( players.size()+ " ");
+			for (int i = 0; i < players.size(); i++) {
+				if (checkLogin(login, i) && checkPassword(password, i)) {
 					search = true;
 					break;
 				}
 			}
 			if (!search) {
 				JOptionPane.showMessageDialog(GameRunner.getFrame(), "Поздравляем!\n Вы успешно зарегистрированы");
-				Accounts.addNewUser(login, password);
+				LOGGER.info("успешная регистрация нового игрока");
+				Player newPlayer = new Player();
+				newPlayer.setLogin(login);
+				newPlayer.setPassword(password);
+				players.add(newPlayer);
 				FrameSelector.getCreateCharacterMenu();
 			} else {
 				JOptionPane.showMessageDialog(GameRunner.getFrame(),
 						"Введены неверные данные\n Заняты логин или пароль");
+				LOGGER.debug("ввод неверных данных");
 			}
 		}
 	}
-
+	/**
+	 * This method checks the login
+	 */
 	public static boolean searchLogin(String login) {
 		boolean search = false;
 		if (login.isEmpty()) {
 			JOptionPane.showMessageDialog(GameRunner.getFrame(), "Заполните пустующие поля!");
+			LOGGER.debug("fields are not filled in");
 		} else {
-			fileManager.checkFile();
-			for (int i = 0; i < Accounts.getUserList().size(); i++) {
-				if (checkLogin(accounts,login, i)) {
+			for (int i = 0; i < players.size(); i++) {
+				if (checkLogin(login, i)) {
 					search = true;
 					break;
 				}
@@ -80,20 +100,40 @@ public class Verification {
 		if (searchLogin(login)) {
 			checkLabel.setForeground(Color.red);
 			checkLabel.setText("Ник занят!");
+			LOGGER.debug("nickname verification failed");
 		} else {
 			if (!login.isEmpty()) {
 				checkLabel.setForeground(Color.green);
 				checkLabel.setText("Ник не занят!");
+				LOGGER.debug("nickname verification successful");
 			}
 		}
 	}
 
-	public static boolean checkLogin(List<Account> accounts, String login, int i) {
-		return (login.equals(accounts.get(i).getLogin())) ? true : false;
+	public static boolean checkLogin(String login, int i) {
+		LOGGER.debug("checking your nickname");
+		return (login.equals(players.get(i).getLogin())) ? true : false;
 	}
 
-	public static boolean checkPassword(List<Account> accounts,String password, int i) {
-		return (password.equals(accounts.get(i).getPassword())) ? true : false;
+	public static boolean checkPassword(String password, int i) {
+		LOGGER.debug("checking your password");
+		return (password.equals(players.get(i).getPassword())) ? true : false;
+	}
+
+	public static FileManager getFileManager() {
+		return fileManager;
+	}
+
+	public static void setFileManager(FileManager fileManager) {
+		Verification.fileManager = fileManager;
+	}
+
+	public static List<Player> getPlayers() {
+		return players;
+	}
+
+	public static void setPlayers(List<Player> players) {
+		Verification.players = players;
 	}
 
 }

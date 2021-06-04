@@ -5,7 +5,9 @@ import java.awt.Component;
 import java.awt.Container;
 
 import javax.swing.JLabel;
-
+/**
+ * makes it easier to work with the same type of add operations
+ */
 public class ComponentHelper {
 
 	public static void addComponents(Container c, Component... com) {
