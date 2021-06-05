@@ -6,7 +6,7 @@ public class Account implements Serializable{
 	
 	private static final long serialVersionUID = -1393484725958972615L;
 	
-	private String login;
+	private String login; 
 	private String password;
 	private String name;
 	private String parameters;

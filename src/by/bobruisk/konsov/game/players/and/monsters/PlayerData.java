@@ -12,7 +12,7 @@ import by.bobruisk.konsov.game.resourses.PlayerClass;
 
 /**
  * Sets basic, "trial" player records
- * @author Sergey
+ * @author Sergey 
  *
  */
 public class PlayerData {
