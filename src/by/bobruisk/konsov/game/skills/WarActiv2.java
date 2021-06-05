@@ -12,8 +12,8 @@ public class WarActiv2 extends Skill{
 
 	{
 		skillType= SkillType.ACTIVE2;
-		name = "Усиление";
-		description = "Увеличивает силу атаки персонажа";
+		name = "РЈСЃРёР»РµРЅРёРµ";
+		description = "РЈРІРµР»РёС‡РёРІР°РµС‚ СЃРёР»Сѓ Р°С‚Р°РєРё РїРµСЂСЃРѕРЅР°Р¶Р°";
 		cooldown = 3;
 	}
 
