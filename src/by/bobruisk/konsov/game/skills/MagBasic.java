@@ -14,7 +14,7 @@ public class MagBasic extends Skill{
 	{
 		skillType= SkillType.BASIC;
 		name = "������"; 
-		description = "������� ����� ������� ����";
+		description = "������� ����� ������� ����  ";
 		cooldown = 0;
 	}
 
