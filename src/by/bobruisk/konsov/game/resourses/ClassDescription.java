@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 /**
  * stores class descriptions and passes them to the character depending on the class of the character itself
  * @author Senger
- *
+ * 
  */
 public class ClassDescription {
 	private final static Logger LOGGER = Logger.getLogger(ClassDescription.class);
