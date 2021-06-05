@@ -13,8 +13,8 @@ public class MagBasic extends Skill{
 
 	{
 		skillType= SkillType.BASIC;
-		name = "������"; 
-		description = "������� ����� ������� ����  ";
+		name = "hit"; 
+		description = "deals damage proportional to strength level ";
 		cooldown = 0;
 	}
 
