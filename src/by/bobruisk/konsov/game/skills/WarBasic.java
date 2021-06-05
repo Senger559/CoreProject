@@ -12,7 +12,7 @@ public class WarBasic extends Skill {
 	{
 		skillType= SkillType.BASIC;
 		name = "Удар";
-		description = "Наносит врагу урон равный силе персонажа ";
+		description = "Наносит врагу урон равный силе персонажа";
 		cooldown = 0;
 	}
 
