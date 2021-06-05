@@ -1057,3 +1057,65 @@
 2021-06-05 02:26:48 INFO  BattleResultDialog:25 - the result of the battle is shown
 2021-06-05 02:26:50 INFO  CharacterMenu:75 - menu was created
 2021-06-05 02:26:51 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 09:45:19 INFO  GameRunner:18 - The program is running
+2021-06-05 09:45:21 INFO  RegistrationMenu:60 - the menu was created
+2021-06-05 09:45:24 INFO  RegistrationMenu:52 - the menu was created
+2021-06-05 09:45:26 INFO  RegistrationMenu:48 - ������ ������������� ����� �������
+2021-06-05 09:45:26 INFO  RegistrationMenu:48 - ������ ������������� ����� �������
+2021-06-05 09:45:26 INFO  RegistrationMenu:48 - ������ ������������� ����� �������
+2021-06-05 09:45:27 DEBUG RegistrationMenu:55 - fields are not filled in
+2021-06-05 09:45:54 DEBUG RegistrationMenu:58 - 0 
+2021-06-05 09:45:55 INFO  RegistrationMenu:67 - �������� ����������� ������ ������
+2021-06-05 09:45:55 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 09:45:56 INFO  MonsterLevelManager:112 - changing the frame and changing the character picture(next)
+2021-06-05 09:45:56 INFO  MonsterLevelManager:90 - menu was created
+2021-06-05 09:45:57 INFO  ClassDescription:45 - the warrior character is assigned a class description
+2021-06-05 09:45:58 INFO  ClassDescription:48 - the rogue character is assigned a class description
+2021-06-05 09:45:58 INFO  ClassDescription:51 - the mage character is assigned a class description
+2021-06-05 09:45:59 INFO  RegistrationMenu:48 - ������ ������������� ����� �������
+2021-06-05 09:45:59 DEBUG RegistrationMenu:27 - the object was prepared for recording 071
+2021-06-05 09:45:59 DEBUG RegistrationMenu:27 - the object was prepared for recording 151
+2021-06-05 09:45:59 DEBUG RegistrationMenu:27 - the object was prepared for recording 231
+2021-06-05 09:45:59 DEBUG RegistrationMenu:27 - the object was prepared for recording 211
+2021-06-05 09:45:59 DEBUG RegistrationMenu:27 - the object was prepared for recording 211
+2021-06-05 09:45:59 INFO  CharacterMenu:75 - menu was created
+2021-06-05 09:45:59 INFO  MonsterLevelManager:121 - character was created
+2021-06-05 09:46:00 INFO  RegistrationMenu:48 - a new monster is being created
+2021-06-05 09:46:00 INFO  RegistrationMenu:64 - the monster is assigned a picture
+2021-06-05 09:46:00 INFO  RegistrationMenu:59 - the monster is given a name
+2021-06-05 09:46:00 INFO  RegistrationMenu:78 - the monster is assigned the rogue class
+2021-06-05 09:46:00 INFO  MonsterLevelManager:48 - monster lelel up 1
+2021-06-05 09:46:00 INFO  BattleMenu:114 - menu was created
+2021-06-05 09:46:01 TRACE BattleMenu:148 - ultimate attack used
+2021-06-05 09:46:01 INFO  BattleManager:18 - An attack has been made����� on the player������������ ���� a skill ULTIMATE
+2021-06-05 09:46:01 TRACE BattleManager:84 - Ultimate Damage calculated
+2021-06-05 09:46:01 TRACE BattleManager:41 - An attack record was created
+2021-06-05 09:46:01 TRACE BattleManager:48 - skill name passed
+2021-06-05 09:46:01 TRACE MonsterLogic:66 - the monster attack
+2021-06-05 09:46:01 TRACE MonsterLogic:25 - the monster chooses a skill to hit
+2021-06-05 09:46:01 INFO  BattleManager:18 - An attack has been made������������ ���� on the player����� a skill ACTIVE1
+2021-06-05 09:46:01 TRACE BattleManager:76 - Increased damage calculated
+2021-06-05 09:46:01 TRACE BattleManager:41 - An attack record was created
+2021-06-05 09:46:01 TRACE BattleManager:48 - skill name passed
+2021-06-05 09:46:01 TRACE MonsterLogic:33 - the monster uses an improved skill
+2021-06-05 09:46:02 TRACE BattleMenu:143 - active2 attack used
+2021-06-05 09:46:02 INFO  BattleManager:18 - An attack has been made����� on the player������������ ���� a skill ACTIVE2
+2021-06-05 09:46:02 TRACE BattleManager:80 - Special damage calculated
+2021-06-05 09:46:02 TRACE BattleManager:41 - An attack record was created
+2021-06-05 09:46:02 TRACE BattleManager:48 - skill name passed
+2021-06-05 09:46:02 TRACE MonsterLogic:66 - the monster attack
+2021-06-05 09:46:02 TRACE MonsterLogic:25 - the monster chooses a skill to hit
+2021-06-05 09:46:02 INFO  BattleManager:18 - An attack has been made������������ ���� on the player����� a skill ACTIVE2
+2021-06-05 09:46:02 TRACE BattleManager:80 - Special damage calculated
+2021-06-05 09:46:02 TRACE BattleManager:41 - An attack record was created
+2021-06-05 09:46:02 TRACE BattleManager:48 - skill name passed
+2021-06-05 09:46:02 TRACE MonsterLogic:43 - the monster uses a special skill
+2021-06-05 09:46:02 TRACE BattleMenu:138 - active1 attack used
+2021-06-05 09:46:02 INFO  BattleManager:18 - An attack has been made����� on the player������������ ���� a skill ACTIVE1
+2021-06-05 09:46:02 TRACE BattleManager:76 - Increased damage calculated
+2021-06-05 09:46:02 TRACE BattleManager:41 - An attack record was created
+2021-06-05 09:46:02 TRACE BattleManager:48 - skill name passed
+2021-06-05 09:46:02 INFO  RegistrationMenu:48 - ������ ������������� ����� �������
+2021-06-05 09:46:02 INFO  ExperienseManager:26 - ����� ������� ����� �������
+2021-06-05 09:46:02 INFO  BattleResultDialog:25 - the result of the battle is shown
+2021-06-05 09:46:03 INFO  CharacterMenu:75 - menu was created
