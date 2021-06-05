@@ -120,7 +120,7 @@ public class CreateCharacterMenu extends JFrame{
 				FrameSelector.getCharacterMenu(CharacterCreator.create());
 				LOGGER.info("character was created");
 			} else {
-				JOptionPane.showMessageDialog(GameRunner.getFrame(), "������� �������� �����!!");
+				JOptionPane.showMessageDialog(GameRunner.getFrame(), "не выбран класс персонажа!!");
 			}
 			
 		}
