@@ -13,8 +13,8 @@ public class MagBasic extends Skill{
 
 	{
 		skillType= SkillType.BASIC;
-		name = "Толчок";
-		description = "Наносит врагу базовый урон";
+		name = "пїЅпїЅпїЅпїЅпїЅпїЅ"; 
+		description = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ";
 		cooldown = 0;
 	}
 
