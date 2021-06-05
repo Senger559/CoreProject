@@ -12,8 +12,8 @@ public class WarUltimate extends Skill{
 
 	{
 		skillType= SkillType.ULTIMATE;
-		name = "Pаскол";
-		description = "Наносит мощный урон противнику";
+		name = "PР°СЃРєРѕР»";
+		description = "РќР°РЅРѕСЃРёС‚ РјРѕС‰РЅС‹Р№ СѓСЂРѕРЅ РїСЂРѕС‚РёРІРЅРёРєСѓ";
 		cooldown = 4;
 	}
 
