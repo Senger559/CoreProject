@@ -14,8 +14,8 @@ public class RogActive2 extends Skill{
 	private static final long serialVersionUID = -4748904614924652152L;
 	{
 		skillType= SkillType.ACTIVE2;
-		name = "Бросок удачи";
-		description = "Наносит случайный урон пропорционально ловкости";
+		name = "Р‘СЂРѕСЃРѕРє СѓРґР°С‡Рё";
+		description = "РќР°РЅРѕСЃРёС‚ СЃР»СѓС‡Р°Р№РЅС‹Р№ СѓСЂРѕРЅ РїСЂРѕРїРѕСЂС†РёРѕРЅР°Р»СЊРЅРѕ Р»РѕРІРєРѕСЃС‚Рё";
 		cooldown = 3;
 	}
 	@Override

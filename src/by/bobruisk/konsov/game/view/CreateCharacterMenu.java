@@ -38,10 +38,10 @@ public class CreateCharacterMenu extends JFrame{
 	private static final long serialVersionUID = 2914731787995347779L;
 	private final static Logger LOGGER = Logger.getLogger(MonsterLevelManager.class);
 	private ActionListener SelectClassJB = new ButListener();
-	private JTextField enteringName = new JTextField("Введите имя");
+	private JTextField enteringName = new JTextField("Р’РІРµРґРёС‚Рµ РёРјСЏ");
 	private JTextArea characterDescription = TextAreas.createUneditable(567, 0, 300, 900);
-	private JLabel selectAvatar = Labels.createColorlessLabel("Выберите аватар", Color.black, 300, 400, 250, 20);
-	private JLabel selectClas  = Labels.createColorlessLabel("Выберите класс", Color.black, 300, 450, 250, 20);
+	private JLabel selectAvatar = Labels.createColorlessLabel("Р’С‹Р±РµСЂРёС‚Рµ Р°РІР°С‚Р°СЂ", Color.black, 300, 400, 250, 20);
+	private JLabel selectClas  = Labels.createColorlessLabel("Р’С‹Р±РµСЂРёС‚Рµ РєР»Р°СЃСЃ", Color.black, 300, 450, 250, 20);
 	private JLabel avatar = new JLabel(
 			new ImageIcon(LoginMenu.class.getClassLoader().getResource(PicturesData.getPicture())));
 	private JButton previous = Buttons.createButton("<<", 300, 427, 125, 20);
@@ -49,7 +49,7 @@ public class CreateCharacterMenu extends JFrame{
 	private JButton warrior = Buttons.createClassButton("warrior", 300, 480, 250, 30);
 	private JButton rogue = Buttons.createClassButton("rogue", 300, 520, 250, 30);
 	private JButton mage = Buttons.createClassButton("mage", 300, 560, 250, 30);
-	private JButton create = Buttons.createButton("Создать", 365, 640, 124, 30);
+	private JButton create = Buttons.createButton("РЎРѕР·РґР°С‚СЊ", 365, 640, 124, 30);
 	
 	public CreateCharacterMenu() {	
 		
@@ -120,7 +120,7 @@ public class CreateCharacterMenu extends JFrame{
 				FrameSelector.getCharacterMenu(CharacterCreator.create());
 				LOGGER.info("character was created");
 			} else {
-				JOptionPane.showMessageDialog(GameRunner.getFrame(), "Сначала выберите класс!!");
+				JOptionPane.showMessageDialog(GameRunner.getFrame(), "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!!");
 			}
 			
 		}

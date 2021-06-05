@@ -24,7 +24,7 @@ import by.bobruisk.konsov.game.skills.WarUltimate;
  *
  */
 public class CharacterCreator {
-	private static String name = "герой";
+	private static String name = "РіРµСЂРѕР№";
 	
 	public static Player create() {
 		Player player = new Player();

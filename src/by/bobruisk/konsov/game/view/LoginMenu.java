@@ -29,16 +29,16 @@ public class LoginMenu  extends JFrame{
 	 *
 	 */
 	private static final long serialVersionUID = 629607158029219621L;
-		private JLabel login= Labels.createColorlessLabel("Логин:", Color.white,220, 450, 200, 80);  
-		private JLabel password = Labels.createColorlessLabel("Пароль:", Color.white, 217, 500, 200, 80);
-		private JLabel image  = new JLabel(
-		new ImageIcon(LoginMenu.class.getClassLoader().getResource("loginMenu.jpg")));
-		private JLabel enter = Labels.createColorlessLabel("Войти", Color.white,375, 600, 100, 20);
-		private JLabel registration = Labels.createColorlessLabel("Регистрация", Color.white,740, 10, 100, 20);
-		private JLabel  check = Labels.createColorlessLabel("", Color.white, 350, 410, 200, 80);
-		private JTextField enteringLogin=TextFields.createTextFForLogMenu(Color.white, 355, 476, 200, 30);
-		private JTextField enteringPassword=TextFields.createTextFForLogMenu(Color.white, 355, 526, 200, 30);
-		private final static Logger LOGGER = Logger.getLogger(RegistrationMenu.class);
+	private JLabel login= Labels.createColorlessLabel("Р›РѕРіРёРЅ:", Color.white,220, 450, 200, 80);  
+	private JLabel password = Labels.createColorlessLabel("РџР°СЂРѕР»СЊ:", Color.white, 217, 500, 200, 80);
+	private JLabel image  = new JLabel(
+	new ImageIcon(LoginMenu.class.getClassLoader().getResource("loginMenu.jpg")));
+	private JLabel enter = Labels.createColorlessLabel("Р’РѕР№С‚Рё", Color.white,375, 600, 100, 20);
+	private JLabel registration = Labels.createColorlessLabel("Р РµРіРёСЃС‚СЂР°С†РёСЏ", Color.white,740, 10, 100, 20);
+	private JLabel  check = Labels.createColorlessLabel("", Color.white, 350, 410, 200, 80);
+	private JTextField enteringLogin=TextFields.createTextFForLogMenu(Color.white, 355, 476, 200, 30);
+	private JTextField enteringPassword=TextFields.createTextFForLogMenu(Color.white, 355, 526, 200, 30);
+	private final static Logger LOGGER = Logger.getLogger(RegistrationMenu.class);
 		
 		public LoginMenu() {
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -12,8 +12,8 @@ public class RogBasic extends Skill{
 	private static final long serialVersionUID = 7150710327389736416L;
 	{
 		skillType= SkillType.BASIC;
-		name = "Трюк";
-		description = "Наносит врагу урон равный ловкости персонажа";
+		name = "РўСЂСЋРє";
+		description = "РќР°РЅРѕСЃРёС‚ РІСЂР°РіСѓ СѓСЂРѕРЅ СЂР°РІРЅС‹Р№ Р»РѕРІРєРѕСЃС‚Рё РїРµСЂСЃРѕРЅР°Р¶Р°";
 		cooldown = 0;
 	}
 	@Override

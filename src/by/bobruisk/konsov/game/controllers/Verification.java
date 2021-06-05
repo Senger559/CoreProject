@@ -27,7 +27,7 @@ public class Verification {
 		fileManager.checkFile();
 		setPlayers(fileManager.extract());
 		if (login.isEmpty() || password.isEmpty()) {
-			JOptionPane.showMessageDialog(GameRunner.getFrame(), "Заполните пустующие поля!");
+			JOptionPane.showMessageDialog(GameRunner.getFrame(), "Р—Р°РїРѕР»РЅРёС‚Рµ РїСѓСЃС‚СѓСЋС‰РёРµ РїРѕР»СЏ!");
 			LOGGER.debug("fields are not filled in");
 		} else {
 			boolean search = false;
@@ -40,7 +40,7 @@ public class Verification {
 			}
 			if (!search) {
 				JOptionPane.showMessageDialog(GameRunner.getFrame(),
-						"Введены неверные данные\n Проверьте логин и пароль");
+						"Р’РІРµРґРµРЅС‹ РЅРµРІРµСЂРЅС‹Рµ РґР°РЅРЅС‹Рµ\n РџСЂРѕРІРµСЂСЊС‚Рµ Р»РѕРіРёРЅ Рё РїР°СЂРѕР»СЊ");
 			}
 		}
 	}
@@ -51,7 +51,7 @@ public class Verification {
 		fileManager.checkFile();
 		setPlayers(fileManager.extract());	
 		if (login.isEmpty() || password.isEmpty()) {
-			JOptionPane.showMessageDialog(GameRunner.getFrame(), "Заполните пустующие поля!");
+			JOptionPane.showMessageDialog(GameRunner.getFrame(), "Р—Р°РїРѕР»РЅРёС‚Рµ РїСѓСЃС‚СѓСЋС‰РёРµ РїРѕР»СЏ!");
 			LOGGER.debug("fields are not filled in");
 		} else {
 			boolean search = false;
@@ -63,8 +63,8 @@ public class Verification {
 				}
 			}
 			if (!search) {
-				JOptionPane.showMessageDialog(GameRunner.getFrame(), "Поздравляем!\n Вы успешно зарегистрированы");
-				LOGGER.info("успешная регистрация нового игрока");
+				JOptionPane.showMessageDialog(GameRunner.getFrame(), "РџРѕР·РґСЂР°РІР»СЏРµРј!\n Р’С‹ СѓСЃРїРµС€РЅРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅС‹");
+				LOGGER.info("СѓСЃРїРµС€РЅР°СЏ СЂРµРіРёСЃС‚СЂР°С†РёСЏ РЅРѕРІРѕРіРѕ РёРіСЂРѕРєР°");
 				Player newPlayer = new Player();
 				newPlayer.setLogin(login);
 				newPlayer.setPassword(password);
@@ -72,8 +72,8 @@ public class Verification {
 				FrameSelector.getCreateCharacterMenu();
 			} else {
 				JOptionPane.showMessageDialog(GameRunner.getFrame(),
-						"Введены неверные данные\n Заняты логин или пароль");
-				LOGGER.debug("ввод неверных данных");
+						"Р’РІРµРґРµРЅС‹ РЅРµРІРµСЂРЅС‹Рµ РґР°РЅРЅС‹Рµ\n Р—Р°РЅСЏС‚С‹ Р»РѕРіРёРЅ РёР»Рё РїР°СЂРѕР»СЊ");
+				LOGGER.debug("РІРІРѕРґ РЅРµРІРµСЂРЅС‹С… РґР°РЅРЅС‹С…");
 			}
 		}
 	}
@@ -83,7 +83,7 @@ public class Verification {
 	public static boolean searchLogin(String login) {
 		boolean search = false;
 		if (login.isEmpty()) {
-			JOptionPane.showMessageDialog(GameRunner.getFrame(), "Заполните пустующие поля!");
+			JOptionPane.showMessageDialog(GameRunner.getFrame(), "Р—Р°РїРѕР»РЅРёС‚Рµ РїСѓСЃС‚СѓСЋС‰РёРµ РїРѕР»СЏ!");
 			LOGGER.debug("fields are not filled in");
 		} else {
 			for (int i = 0; i < players.size(); i++) {
@@ -99,12 +99,12 @@ public class Verification {
 		fileManager.checkFile();
 		if (searchLogin(login)) {
 			checkLabel.setForeground(Color.red);
-			checkLabel.setText("Ник занят!");
+			checkLabel.setText("РќРёРє Р·Р°РЅСЏС‚!");
 			LOGGER.debug("nickname verification failed");
 		} else {
 			if (!login.isEmpty()) {
 				checkLabel.setForeground(Color.green);
-				checkLabel.setText("Ник не занят!");
+				checkLabel.setText("РќРёРє РЅРµ Р·Р°РЅСЏС‚!");
 				LOGGER.debug("nickname verification successful");
 			}
 		}

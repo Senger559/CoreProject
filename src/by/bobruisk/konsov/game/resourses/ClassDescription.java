@@ -12,9 +12,10 @@ import org.apache.log4j.Logger;
 public class ClassDescription {
 	private final static Logger LOGGER = Logger.getLogger(ClassDescription.class);
 	private static PlayerClass selected;
-	private static String warriorDescription = "Описание класса воин\n Воин - персонаж основная характеристика которого сила.\n Его навыки: \nУдар\nРазрез\nУсиление\nPаскол";
-	private static String rogueDescription = "Описание класса плут\n Плут  - персонаж основная характеристика которого ловкость.\n Его навыки:\nТрюк\nФинт\nБросок удачи\nРиск";
-	private static String mageDescription = "Описание класса маг\n Маг  - персонаж основная характеристика которого интеллект.\n Его навыки: \nТолчок\nМолния\nЗакалка\nШторм";
+	private static String warriorDescription = "РћРїРёСЃР°РЅРёРµ РєР»Р°СЃСЃР° РІРѕРёРЅ\n Р’РѕРёРЅ - РїРµСЂСЃРѕРЅР°Р¶ РѕСЃРЅРѕРІРЅР°СЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РєРѕС‚РѕСЂРѕРіРѕ СЃРёР»Р°.\n Р•РіРѕ РЅР°РІС‹РєРё: \nРЈРґР°СЂ\nР Р°Р·СЂРµР·\nРЈСЃРёР»РµРЅРёРµ\nPР°СЃРєРѕР»";
+	private static String rogueDescription = "РћРїРёСЃР°РЅРёРµ РєР»Р°СЃСЃР° РїР»СѓС‚\n РџР»СѓС‚  - РїРµСЂСЃРѕРЅР°Р¶ РѕСЃРЅРѕРІРЅР°СЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РєРѕС‚РѕСЂРѕРіРѕ Р»РѕРІРєРѕСЃС‚СЊ.\n Р•РіРѕ РЅР°РІС‹РєРё:\nРўСЂСЋРє\nР¤РёРЅС‚\nР‘СЂРѕСЃРѕРє СѓРґР°С‡Рё\nР РёСЃРє";
+	private static String mageDescription = "РћРїРёСЃР°РЅРёРµ РєР»Р°СЃСЃР° РјР°Рі\n РњР°Рі  - РїРµСЂСЃРѕРЅР°Р¶ РѕСЃРЅРѕРІРЅР°СЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РєРѕС‚РѕСЂРѕРіРѕ РёРЅС‚РµР»Р»РµРєС‚.\n Р•РіРѕ РЅР°РІС‹РєРё: \nРўРѕР»С‡РѕРє\nРњРѕР»РЅРёСЏ\nР—Р°РєР°Р»РєР°\nРЁС‚РѕСЂРј";
+	
 	
 	public static String getWarriorDescription() {
 		return warriorDescription;

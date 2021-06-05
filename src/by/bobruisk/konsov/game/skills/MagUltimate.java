@@ -12,8 +12,8 @@ public class MagUltimate extends Skill{
 	private static final long serialVersionUID = 7043682238179094900L;
 	{
 		skillType= SkillType.ULTIMATE;
-		name = "Шторм";
-		description = "Наносит мощный урон противнику";
+		name = "РЁС‚РѕСЂРј";
+		description = "РќР°РЅРѕСЃРёС‚ РјРѕС‰РЅС‹Р№ СѓСЂРѕРЅ РїСЂРѕС‚РёРІРЅРёРєСѓ";
 		cooldown = 4;
 	}
 	@Override

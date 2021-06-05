@@ -45,7 +45,7 @@ public class PlayerLevelManager {
 	private static final int mageBasicInt = 55;
 	private final static Logger LOGGER = Logger.getLogger(RegistrationMenu.class);
 	public static void lvlUp(Player player) {
-		LOGGER.info("Игроку присваивается новый уровень");
+		LOGGER.info("РРіСЂРѕРєСѓ РїСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РЅРѕРІС‹Р№ СѓСЂРѕРІРµРЅСЊ");
 		if (player.getPlayerClass() == PlayerClass.WARRIOR) {
 			WarSetLvlStats(player,player.getLevel());
 		} else if (player.getPlayerClass() == PlayerClass.ROGUE) {

@@ -20,28 +20,28 @@ public class OpponentCreator {
 	private static int monsterPool = 11;
 	private final static Logger LOGGER = Logger.getLogger(RegistrationMenu.class);
 	static {
-		monsterName[0] = "чуул";
-		monsterName[1] = "кобольд";
-		monsterName[2] = "баатезу";
-		monsterName[3] = "допельгангер";
-		monsterName[4] = "хитн";
-		monsterName[5] = "исчадие";
-		monsterName[6] = "кабан";
-		monsterName[7] = "карга";
-		monsterName[8] = "костяной Дьявол";
-		monsterName[9] = "кваггот";
-		monsterName[10] = "тролль";
-		tag[0] = "Злобный";
-		tag[1] = "Коварный";
-		tag[2] = "Безумный";
-		tag[3] = "Древний";
-		tag[4] = "Безымянный";
-		tag[5] = "Опасный";
-		tag[6] = "Притаившийся";
-		tag[7] = "Теневой";
-		tag[8] = "Пробуждённый";
-		tag[9] = "Лихой";
-		tag[10] = "Рьяный";
+		monsterName[0] = "С‡СѓСѓР»";
+		monsterName[1] = "РєРѕР±РѕР»СЊРґ";
+		monsterName[2] = "Р±Р°Р°С‚РµР·Сѓ";
+		monsterName[3] = "РґРѕРїРµР»СЊРіР°РЅРіРµСЂ";
+		monsterName[4] = "С…РёС‚РЅ";
+		monsterName[5] = "РёСЃС‡Р°РґРёРµ";
+		monsterName[6] = "РєР°Р±Р°РЅ";
+		monsterName[7] = "РєР°СЂРіР°";
+		monsterName[8] = "РєРѕСЃС‚СЏРЅРѕР№ Р”СЊСЏРІРѕР»";
+		monsterName[9] = "РєРІР°РіРіРѕС‚";
+		monsterName[10] = "С‚СЂРѕР»Р»СЊ";
+		tag[0] = "Р—Р»РѕР±РЅС‹Р№";
+		tag[1] = "РљРѕРІР°СЂРЅС‹Р№";
+		tag[2] = "Р‘РµР·СѓРјРЅС‹Р№";
+		tag[3] = "Р”СЂРµРІРЅРёР№";
+		tag[4] = "Р‘РµР·С‹РјСЏРЅРЅС‹Р№";
+		tag[5] = "РћРїР°СЃРЅС‹Р№";
+		tag[6] = "РџСЂРёС‚Р°РёРІС€РёР№СЃСЏ";
+		tag[7] = "РўРµРЅРµРІРѕР№";
+		tag[8] = "РџСЂРѕР±СѓР¶РґС‘РЅРЅС‹Р№";
+		tag[9] = "Р›РёС…РѕР№";
+		tag[10] = "Р СЊСЏРЅС‹Р№";
 	}
 	
 	public Player getNewMonster (int playerLevel) {

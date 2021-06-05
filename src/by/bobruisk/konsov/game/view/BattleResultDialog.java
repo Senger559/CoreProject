@@ -15,7 +15,7 @@ public class BattleResultDialog extends JDialog{
 	private static final long serialVersionUID = -698840057978491797L;
 	private final static Logger LOGGER = Logger.getLogger(BattleResultDialog.class);
 	public BattleResultDialog(Player player, boolean battleResult) {
-		JDialog dialog = new JDialog(GameRunner.getFrame(), "		Победа", true);
+		JDialog dialog = new JDialog(GameRunner.getFrame(), "		РџРѕР±РµРґР°", true);
 		JLabel message = new JLabel(selectResultMessage(player, battleResult));
 		message.setHorizontalAlignment(JLabel.CENTER);
 		dialog.add(message);
@@ -26,8 +26,7 @@ public class BattleResultDialog extends JDialog{
 	    dialog.setVisible(true);
 	}
 	private String selectResultMessage(Player player, boolean battleResult) {
-		return battleResult ? "<html> <br>"+ "Поздравляем с успехом!<br>"+"Выше число побед: "+ player.getBattleWin()+ " !<br><br></html>"
-				:"<html> <br>"  + "Вам стоит подумать о тактике<br>" +  "Число ваших поражений: " + player.getBattleLose() + " !<br><br><html>";
+		return battleResult ? "<html> <br>"+ "РџРѕР·РґСЂР°РІР»СЏРµРј СЃ СѓСЃРїРµС…РѕРј!<br>"+"Р’С‹С€Рµ С‡РёСЃР»Рѕ РїРѕР±РµРґ: "+ player.getBattleWin()+ " !<br><br></html>"
+				:"<html> <br>"  + "Р’Р°Рј СЃС‚РѕРёС‚ РїРѕРґСѓРјР°С‚СЊ Рѕ С‚Р°РєС‚РёРєРµ<br>" +  "Р§РёСЃР»Рѕ РІР°С€РёС… РїРѕСЂР°Р¶РµРЅРёР№: " + player.getBattleLose() + " !<br><br><html>";
 	}
-	
 }

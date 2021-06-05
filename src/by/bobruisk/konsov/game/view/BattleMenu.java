@@ -53,15 +53,15 @@ public class BattleMenu extends JFrame{
 		playerAvatar  = new JLabel(
 				new ImageIcon(LoginMenu.class.getClassLoader().getResource(player.getIi()))); 
 		playerAvatar.setBounds(0, 20, 250, 350);
-		playerLevel = Labels.createCharacterLabel("   Уровень: " + player.getLevel(), 50, 380, 250, 20);
-		playerClass = Labels.createCharacterLabel("   Класс: " + player.getPlayerClass(), 50, 420, 250, 20);
-		playerHealth = Labels.createCharacterLabel("   Здоровье: " + player.getHealthPoints(), 50, 460, 250, 20);
-		playerDefence = Labels.createCharacterLabel("   Защита: " + player.getDefense(), 50, 500, 250, 20);
-		playerPower = Labels.createCharacterLabel("   Сила: " + player.getPower(), 50, 540, 250, 20);
-		playerDexterity = Labels.createCharacterLabel("   Ловкость: " + player.getDexterity(), 50, 580, 250, 20);
-		playerIntelligense = Labels.createCharacterLabel("   Интеллект: " + player.getIntelligence(), 50, 620, 250, 20);
-		playerExpirience = Labels.createCharacterLabel("   Текущий опыт: " + player.getExpirience(), 50, 660, 250, 20);
-		battleLog.setText("Бой между " + player.getName() + " и " + monster.getName() + " начался \n");
+		playerLevel = Labels.createCharacterLabel("   РЈСЂРѕРІРµРЅСЊ: " + player.getLevel(), 50, 380, 250, 20);
+		playerClass = Labels.createCharacterLabel("   РљР»Р°СЃСЃ: " + player.getPlayerClass(), 50, 420, 250, 20);
+		playerHealth = Labels.createCharacterLabel("   Р—РґРѕСЂРѕРІСЊРµ: " + player.getHealthPoints(), 50, 460, 250, 20);
+		playerDefence = Labels.createCharacterLabel("   Р—Р°С‰РёС‚Р°: " + player.getDefense(), 50, 500, 250, 20);
+		playerPower = Labels.createCharacterLabel("   РЎРёР»Р°: " + player.getPower(), 50, 540, 250, 20);
+		playerDexterity = Labels.createCharacterLabel("   Р›РѕРІРєРѕСЃС‚СЊ: " + player.getDexterity(), 50, 580, 250, 20);
+		playerIntelligense = Labels.createCharacterLabel("   РРЅС‚РµР»Р»РµРєС‚: " + player.getIntelligence(), 50, 620, 250, 20);
+		playerExpirience = Labels.createCharacterLabel("   РўРµРєСѓС‰РёР№ РѕРїС‹С‚: " + player.getExpirience(), 50, 660, 250, 20);
+		battleLog.setText("Р‘РѕР№ РјРµР¶РґСѓ " + player.getName() + " Рё " + monster.getName() + " РЅР°С‡Р°Р»СЃСЏ \n");
 		
 		batScroll = new JScrollPane(battleLog);
 		batScroll.setBounds(250, 0, 400, 600);
@@ -72,9 +72,9 @@ public class BattleMenu extends JFrame{
 		monsterAvatar = new JLabel(
 				new ImageIcon(LoginMenu.class.getClassLoader().getResource(monster.getIi())));
 		monsterAvatar.setBounds(650, 20, 250, 350);
-		monsterLevel = Labels.createCharacterLabel("   Уровень: "+ monster.getLevel(), 650, 380, 250, 20);
-		monsterClass = Labels.createCharacterLabel("   Класс: " + monster.getPlayerClass(), 650, 420, 250, 20);
-		monsterHealth = Labels.createCharacterLabel("   Здоровье: " + monster.getHealthPoints(), 650, 460, 250, 20);
+		monsterLevel = Labels.createCharacterLabel("   РЈСЂРѕРІРµРЅСЊ: "+ monster.getLevel(), 650, 380, 250, 20);
+		monsterClass = Labels.createCharacterLabel("   РљР»Р°СЃСЃ: " + monster.getPlayerClass(), 650, 420, 250, 20);
+		monsterHealth = Labels.createCharacterLabel("   Р—РґРѕСЂРѕРІСЊРµ: " + monster.getHealthPoints(), 650, 460, 250, 20);
 		
 		basicSkill = Buttons.createSkillButton(player.getBasic(), 250, 600, 100, 100);
 		active1Skill = Buttons.createSkillButton(player.getActive1(), 350, 600, 100, 100);
@@ -158,8 +158,8 @@ public class BattleMenu extends JFrame{
 			playerActive2Modificator = decreaseSkillCoolDown(playerActive2Modificator, active2Skill);
 			playerUltimateModificator = decreaseSkillCoolDown(playerUltimateModificator, ultimateSkill);
 		}
-		//первоначально этот метод не возвращал, просто уменьшал поступаемую переменную и всё работало.
-		//так и не понял, с чего он внезапно перестал это делать(код не переписывал, слушатель не менял), пришлось дополнительно присваивать
+		//РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕ СЌС‚РѕС‚ РјРµС‚РѕРґ РЅРµ РІРѕР·РІСЂР°С‰Р°Р», РїСЂРѕСЃС‚Рѕ СѓРјРµРЅСЊС€Р°Р» РїРѕСЃС‚СѓРїР°РµРјСѓСЋ РїРµСЂРµРјРµРЅРЅСѓСЋ Рё РІСЃС‘ СЂР°Р±РѕС‚Р°Р»Рѕ.
+		//С‚Р°Рє Рё РЅРµ РїРѕРЅСЏР», СЃ С‡РµРіРѕ РѕРЅ РІРЅРµР·Р°РїРЅРѕ РїРµСЂРµСЃС‚Р°Р» СЌС‚Рѕ РґРµР»Р°С‚СЊ(РєРѕРґ РЅРµ РїРµСЂРµРїРёСЃС‹РІР°Р», СЃР»СѓС€Р°С‚РµР»СЊ РЅРµ РјРµРЅСЏР»), РїСЂРёС€Р»РѕСЃСЊ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ РїСЂРёСЃРІР°РёРІР°С‚СЊ
 		private int decreaseSkillCoolDown(int modifier, JButton skillButton) {
 			if(modifier!= 0) {
 				--modifier;
@@ -186,7 +186,7 @@ public class BattleMenu extends JFrame{
 			MonsterLogic.monsterSkillAction (player, monster, battleLog.getText());
 			battleLog.setText("");
 			battleLog.setText(MonsterLogic.getLog().toString());
-			playerHealth.setText("   Здоровье: " + player.getHealthPoints());
+			playerHealth.setText("   Р—РґРѕСЂРѕРІСЊРµ: " + player.getHealthPoints());
 		}
 		
 		private void getWin() {
@@ -209,7 +209,7 @@ public class BattleMenu extends JFrame{
 		
 		private void makeMove (Player monster, Player player,String Log, SkillType skillType) {
 			battleLog.setText(BattleManager.performBasicAttack(monster, player,Log, skillType));
-			monsterHealth.setText("   Здоровье: " + monster.getHealthPoints());
+			monsterHealth.setText("   Р—РґРѕСЂРѕРІСЊРµ: " + monster.getHealthPoints());
 		}
 
 		public Player getPlayer() {
@@ -220,6 +220,6 @@ public class BattleMenu extends JFrame{
 			return monster;
 		}
 
-	}	
+	}		
 }
 

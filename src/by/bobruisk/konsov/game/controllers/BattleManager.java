@@ -39,8 +39,8 @@ public class BattleManager {
 	}
 	public static void createAttackLog (Player defender, Player attacker, SkillType skillType, int damage) {
 		LOGGER.trace("An attack record was created");
-		String skillMessage = attacker.getName() + " использовал " + getSkillName(attacker, skillType) + "\n";
-		String damageMessage = defender.getName() + " получил " + damage  + " урона\n\n";
+		String skillMessage = attacker.getName() + " РёСЃРїРѕР»СЊР·РѕРІР°Р» " + getSkillName(attacker, skillType) + "\n";
+		String damageMessage = defender.getName() + " РїРѕР»СѓС‡РёР» " + damage  + " СѓСЂРѕРЅР°\n\n";
 		log.append(skillMessage).append(damageMessage);
 	}
 	

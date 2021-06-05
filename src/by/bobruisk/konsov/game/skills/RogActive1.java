@@ -12,8 +12,8 @@ public class RogActive1 extends Skill{
 	private static final long serialVersionUID = -6938751147983391436L;
 	{
 		skillType= SkillType.ACTIVE1;
-		name = "Финт";
-		description = "Наносит врагу урон равный двукратной локости персонажа";
+		name = "Р¤РёРЅС‚";
+		description = "РќР°РЅРѕСЃРёС‚ РІСЂР°РіСѓ СѓСЂРѕРЅ СЂР°РІРЅС‹Р№ РґРІСѓРєСЂР°С‚РЅРѕР№ Р»РѕРєРѕСЃС‚Рё РїРµСЂСЃРѕРЅР°Р¶Р°";
 		cooldown = 2;
 	}
 	@Override

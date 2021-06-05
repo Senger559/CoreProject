@@ -47,16 +47,16 @@ public class CharacterMenu extends JFrame{
 		name = Labels.createCharacterLabel(player.getName(), 50, 0, 250, 20);
 		avatar = new JLabel(
 				new ImageIcon(CharacterMenu.class.getClassLoader().getResource(player.getIi())));
-		level = Labels.createCharacterLabel("Уровень: " + player.getLevel(), 50, 380, 250, 20);	
-		clas = Labels.createCharacterLabel("Класс: " + player.getPlayerClass(), 50, 420, 250, 20);	
-		health = Labels.createCharacterLabel("Здоровье: " + player.getHealthPoints(), 50, 460, 250, 20);	
-		defence = Labels.createCharacterLabel("Защита: " + player.getDefense(), 50, 500, 250, 20);	
-		power = Labels.createCharacterLabel("Сила: " + player.getPower(), 50, 540, 250, 20);	
-		dexterity = Labels.createCharacterLabel("Ловкость: " + player.getDexterity(), 50, 580, 250, 20);
-		intelligence = Labels.createCharacterLabel("Интеллект: " + player.getIntelligence(), 50, 620, 250, 20);	
-		expirience = Labels.createCharacterLabel("Текущий опыт: " + player.getExpirience(), 50, 660, 250, 20);		
-		anotherAccount = Buttons.createClassButton("Главное меню", 600, 620, 250, 20);
-		playBattle = Buttons.createClassButton("B бой", 600, 660, 250, 20);
+		level = Labels.createCharacterLabel("РЈСЂРѕРІРµРЅСЊ: " + player.getLevel(), 50, 380, 250, 20);	
+		clas = Labels.createCharacterLabel("РљР»Р°СЃСЃ: " + player.getPlayerClass(), 50, 420, 250, 20);	
+		health = Labels.createCharacterLabel("Р—РґРѕСЂРѕРІСЊРµ: " + player.getHealthPoints(), 50, 460, 250, 20);	
+		defence = Labels.createCharacterLabel("Р—Р°С‰РёС‚Р°: " + player.getDefense(), 50, 500, 250, 20);	
+		power = Labels.createCharacterLabel("РЎРёР»Р°: " + player.getPower(), 50, 540, 250, 20);	
+		dexterity = Labels.createCharacterLabel("Р›РѕРІРєРѕСЃС‚СЊ: " + player.getDexterity(), 50, 580, 250, 20);
+		intelligence = Labels.createCharacterLabel("РРЅС‚РµР»Р»РµРєС‚: " + player.getIntelligence(), 50, 620, 250, 20);	
+		expirience = Labels.createCharacterLabel("РўРµРєСѓС‰РёР№ РѕРїС‹С‚: " + player.getExpirience(), 50, 660, 250, 20);		
+		anotherAccount = Buttons.createClassButton("Р“Р»Р°РІРЅРѕРµ РјРµРЅСЋ", 600, 620, 250, 20);
+		playBattle = Buttons.createClassButton("B Р±РѕР№", 600, 660, 250, 20);
 		avatar.setBounds(0, 20, 250, 350);
 		anotherAccount.addActionListener(new ActionListener() {	
 			@Override

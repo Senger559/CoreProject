@@ -13,8 +13,8 @@ public class RogUltimate extends Skill{
 	private static final long serialVersionUID = -8739575403570626783L;
 	{
 		skillType= SkillType.ULTIMATE;
-		name = "Риск";
-		description = "Наносит мощный, но нестабильный урон противнику";
+		name = "Р РёСЃРє";
+		description = "РќР°РЅРѕСЃРёС‚ РјРѕС‰РЅС‹Р№, РЅРѕ РЅРµСЃС‚Р°Р±РёР»СЊРЅС‹Р№ СѓСЂРѕРЅ РїСЂРѕС‚РёРІРЅРёРєСѓ";
 		cooldown = 4;
 	}
 	@Override

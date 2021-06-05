@@ -12,8 +12,8 @@ public class MagActive1 extends Skill{
 	private static final long serialVersionUID = -5572034231447530914L;
 	{
 		skillType= SkillType.ACTIVE1;
-		name = "Молния";
-		description = "Наносит врагу урон равный двукратному значению интеллекта";
+		name = "РњРѕР»РЅРёСЏ";
+		description = "РќР°РЅРѕСЃРёС‚ РІСЂР°РіСѓ СѓСЂРѕРЅ СЂР°РІРЅС‹Р№ РґРІСѓРєСЂР°С‚РЅРѕРјСѓ Р·РЅР°С‡РµРЅРёСЋ РёРЅС‚РµР»Р»РµРєС‚Р°";
 		cooldown = 1;
 	}
 	@Override

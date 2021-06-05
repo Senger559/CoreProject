@@ -23,7 +23,7 @@ public class ExperienseManager {
 	}
 	
 	private static void setNewLevel (Player player) {
-		LOGGER.info(player.getName() +" получил новый уровень");
+		LOGGER.info(player.getName() +" РїРѕР»СѓС‡РёР» РЅРѕРІС‹Р№ СѓСЂРѕРІРµРЅСЊ");
 		for (int i = LEVELS.length; i > 0; i--) {
 			if(player.getExpirience()> LEVELS[LEVELS.length-1]) {
 				lvlUp(player, LEVELS.length+1);
